@@ -7,13 +7,12 @@
 
 var C =
 {
-	// [0], 'divinity', [3], 'firfumferenfe'
 	"keys":
 	[
-		[[0]],
-		['divinity', 1],
-		[[3]],
-		['firfumferenfe', 1]
+		//[[0]],
+		//['divinity', 1],
+		//[[3]],
+		//['firfumferenfe', 1]
 	],
 
 	"raw": "./data/liber",

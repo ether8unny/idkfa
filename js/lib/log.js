@@ -73,10 +73,10 @@ var L =
 					dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrioc) : dlrioc;
 
 					// Prepare Text
-					var ulftxt = data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ').substring(0, 99);
-					var dlftxt = data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ').substring(0, 99);
-					var ulrtxt = data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ').substring(0, 99);
-					var dlrtxt = data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ').substring(0, 99);
+					var ulftxt = data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ');
+					var dlftxt = data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ');
+					var ulrtxt = data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ');
+					var dlrtxt = data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ');
 
 					// Color Text
 					ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulftxt) : ulftxt;
@@ -95,11 +95,11 @@ var L =
 					dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrtxt) : dlrtxt;
 
 					// Glue together string
-					str += 'ULF:\t' + ulfioc + '\t' + ulftxt + '\n';
-					str += 'DLF:\t' + dlfioc + '\t' + dlftxt + '\n';
-					str += 'ULR:\t' + ulrioc + '\t' + ulrtxt + '\n';
-					str += 'DLR:\t' + dlrioc + '\t' + dlrtxt + '\n';
-					str += '\n';
+					str += 'ULF:\t' + ulfioc + '\t' + ulftxt + '\n\n';
+					str += 'DLF:\t' + dlfioc + '\t' + dlftxt + '\n\n';
+					str += 'ULR:\t' + ulrioc + '\t' + ulrtxt + '\n\n';
+					str += 'DLR:\t' + dlrioc + '\t' + dlrtxt + '\n\n';
+					//str += '\n';
 
 					// Glue matched words to the end
 					str += 'ULF:\t';
@@ -112,7 +112,7 @@ var L =
 
 					str += K.blue(tmp1.substring(0, 110));
 
-					str += '\n' + 'DLF:\t';
+					str += '\n\n' + 'DLF:\t';
 
 					var tmp2 = '';
 					for(var jj = 0; jj < Object.keys(data[i][j][k].dlf.frequency).length; jj ++)
@@ -122,7 +122,7 @@ var L =
 
 					str += K.blue(tmp2.substring(0, 110));
 
-					str += '\n' + 'ULR:\t';
+					str += '\n\n' + 'ULR:\t';
 
 					var tmp3 = '';
 					for(var kk = 0; kk < Object.keys(data[i][j][k].ulr.frequency).length; kk ++)
@@ -132,7 +132,7 @@ var L =
 
 					str += K.blue(tmp3.substring(0, 110));
 
-					str += '\n' + 'DLR:\t';
+					str += '\n\n' + 'DLR:\t';
 
 					var tmp4 = '';
 					for(var ll = 0; ll < Object.keys(data[i][j][k].dlr.frequency).length; ll ++)
@@ -142,7 +142,7 @@ var L =
 
 					str += K.blue(tmp4.substring(0, 110));
 
-					str += '\n\n';
+					str += '\n\n\n\n';
 
 				}
 

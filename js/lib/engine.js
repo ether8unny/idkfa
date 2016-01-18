@@ -81,34 +81,54 @@ var E =
 				// Add iteration to output.
 				data[i][j].iteration = iteration;
 
-				// Pad to chunks length and add them to tkeys.
+				// Pad keys from config to chunks length and add them to tkeys.
 				if (K.keys.length > 0) for (var y = 0, yy = K.keys.length; y < yy; y ++ ) tkeys[i][j].push(K.pad(K.keys[y].slice(0), keylen));
 
 				// <!--				-->
 				// <!--	Test Keys	-->
 				// <!--				-->
 
+			//////// Build streams of common sequences.
 
-				// Build some streams of common sequences.
 				//console.log('[-] Generating integers: ' + keylen + '..');
 				//var keyInt		= N.integer(keylen);
 
 				//console.log('[-] Generating primes: ' + keylen + '..');
-				var keyPrime	= N.prime(keylen);
+				//var keyPrime	= N.prime(keylen);
 
 				//console.log('[-] Generating pi: ' + keylen + '..');
 				//var keyPi		= N.pi(keylen);
 
-				// Add key section 15 (phi(prime))
-				var keySection15 = [];
-				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
-				tkeys[i][j].push(keySection15);
+			//////// Add key section 15 (phi(prime))
+
+				//var keySection15 = [];
+				//for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
+				//tkeys[i][j].push(keySection15);
+
+			//////// Select Gematria values of words (GVW) as key. Cumulative! K.select({w:[0,1], c:[0,1]}) will return [w0,w1,c0,c1]
+
+				// Test GVW and phi(GVW) per paragraph.
+				var gvByP = [], gvPhiByP = [];
+
+				var solvedByP	= [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,33,34];
+				var unsolvedByP	= [16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32];
+				var paragraphs	= solvedByP.concat(unsolvedByP);
+
+				// Use paragraphs as keys.
+				for (var iii = 0; iii < paragraphs.length; iii ++)
+				{
+					// Grab paragraph as GVW and pad/truncate to keylen.
+					gvByP[iii] = K.pad(K.select({p:[paragraphs[iii]]}), keylen);
+
+					// Walk trough values and calc phi().
+					gvPhiByP[iii] = [];
+					for (var www = 0, wwww = gvByP[iii].length; www < wwww; www ++) gvPhiByP[iii][www] = nt.eulerPhi(gvByP[iii][www]);
+				}
+
+				tkeys[i][j] = tkeys[i][j].concat(gvByP).concat(gvPhiByP);
 
 
-				// Select Gematria values of words as key. Cumulative!
-				//var primeValues = K.select({s:[15]});
-				//var pv = K.pad(primeValues, keylen);
-				//tkeys[i][j].push(pv);
+			//////// Key rotation.
 
 				// Rotate key full circle.
 				//for (var z = 0; z < keylen; z ++) tkeys[i][j].push(K.rotate(key06.slice(0), z));

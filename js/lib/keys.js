@@ -151,7 +151,10 @@ var K =
 		// If only 2 args are passed assume 2nd is length and pad key with itself.
 		if (arguments.length < 3) {length = char; char = [];}
 
-		// If char = number or string pad key with it.
+		// If key is longer or equal length truncate key to length and return key.
+		if (key.length >= length) return key.slice(0, length);
+
+		// If char = (number or string) pad key with it.
 		if (_.isString(char) || _.isNumber(char)) {if (_.isString(char) && char.length > 1) char = char.substring(0, 1); while (key.length < length) key.push(char);}
 
 		// Else pad key with itself.
