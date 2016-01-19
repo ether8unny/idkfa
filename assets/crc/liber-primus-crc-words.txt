@@ -1,3 +1,10 @@
+
+[-] Loading chunks..
+[-] Done loading chunks..
+[-] Processing data..
+[-] Done processing data..
+[-] Logging..
+
 Data: 0
 
 Words: 1 // FChars: 1 // CRC: 11
