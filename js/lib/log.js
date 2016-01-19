@@ -11,8 +11,14 @@ var _	= require('underscore');
 
 var L =
 {
-	"toScreen": function(data)
+	"log": function(data, level)
 	{
+		var lenFuthark	= 125;
+		var lenIoC		= 10;
+		var lenKey		= 110;
+		var lenString	= (level.ioc) ? 100 : 117;
+		var lenWords	= 115;
+
 		var str = '\n';
 
 		// Loop Selectors
@@ -21,132 +27,119 @@ var L =
 			// Loop Chunks
 			for (var j = 0; j < data[i].length; j ++)
 			{
-				/*
-				var frequencies = data[i][j].frequencies;
-				var sorted = [];
-
-				for (var foo in frequencies) sorted.push([foo, frequencies[foo]]);
-
-				sorted.sort(function(a, b) {return a[1] - b[1];}).reverse();
-
-				var foofreq = '';
-				for (var z = 0, zz = sorted.length; z < zz; z ++)
-				{
-					foofreq += sorted[z][0] + ':' + sorted[z][1] + '  ';
-				}
-
-				foofreq = foofreq.substring(0, 95) + '\n' + foofreq.substring(95);
-				*/
-
-				str += K.bold.red('Chunk: ' + j) + '\n\n';
-				str += 'Words: ' + data[i][j].wordcount + ' // Chars: ' + data[i][j].charcount + ' // CRC: ' + data[i][j].crc + '\n\n';
-				//str += 'Frequencies: ' + foofreq + '\n\n';
-				//str += 'Doubles: ' + '' + '\n\n';
-				str += data[i][j].futhark.substring(0, 122) + '\n';
-				str += '---------------------------------------------------------------------------------------------------------------------------' + '\n\n';
+				str += (Object.keys(level).length > 0) ? K.bold.red('Data: ' + j) + '\n\n' : '';
+				str += (level.stats) ? 'Words: ' + data[i][j].wordcount + ' // FChars: ' + data[i][j].charcount + ' // CRC: ' + data[i][j].crc + '\n\n' : '';
+				str += (level.futhark) ? (level.truncate) ? data[i][j].futhark.substring(0, lenFuthark) + '\n\n' : data[i][j].futhark + '\n\n' : '';
+				//str += (keys || dict) ? '---------------------------------------------------------------------------------------------------------------------------' + '\n\n' : '';
 
 				// Display chunk data.
 				for (var k = 0; k < data[i][j].length; k ++)
 				{
-					str += K.bold('Key:\t') + data[i][j][k].key.substring(0, 110) + '\n\n';
+					data[i][j][k].key = (level.truncate) ? data[i][j][k].key.substring(0, lenKey) : data[i][j][k].key;
 
-					// Prepare IoC
-					var ulfioc = (data[i][j][k].ulf.ioc).toString().substring(0, 10);
-					var dlfioc = (data[i][j][k].dlf.ioc).toString().substring(0, 10);
-					var ulrioc = (data[i][j][k].ulr.ioc).toString().substring(0, 10);
-					var dlrioc = (data[i][j][k].dlr.ioc).toString().substring(0, 10);
+					str += (level.keys) ? (level.legend) ? K.bold('Key:\t') + data[i][j][k].key + '\n\n' : data[i][j][k].key + '\n\n' : '';
 
-					// Color IoC
-					ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulfioc) : ulfioc;
-					dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.low.value && data[i][j][k].dlf.ioc < C.ioc.medium.value) ? K.green(dlfioc) : dlfioc;
-					ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.low.value && data[i][j][k].ulr.ioc < C.ioc.medium.value) ? K.green(ulrioc) : ulrioc;
-					dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.low.value && data[i][j][k].dlr.ioc < C.ioc.medium.value) ? K.green(dlrioc) : dlrioc;
+					var ulfioc = '', dlfioc = '', ulrioc = '', dlrioc = '';
+					var ulftxt = '', dlftxt = '', ulrtxt = '', dlrtxt = '';
 
-					ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.medium.value && data[i][j][k].ulf.ioc < C.ioc.high.value) ? K.yellow(ulfioc) : ulfioc;
-					dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.medium.value && data[i][j][k].dlf.ioc < C.ioc.high.value) ? K.yellow(dlfioc) : dlfioc;
-					ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.medium.value && data[i][j][k].ulr.ioc < C.ioc.high.value) ? K.yellow(ulrioc) : ulrioc;
-					dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.medium.value && data[i][j][k].dlr.ioc < C.ioc.high.value) ? K.yellow(dlrioc) : dlrioc;
+					if (level.ioc)
+					{
+						// Prepare IoC
+						if (level.ulf) ulfioc = (data[i][j][k].ulf.ioc).toString().substring(0, lenIoC);
+						if (level.dlf) dlfioc = (data[i][j][k].dlf.ioc).toString().substring(0, lenIoC);
+						if (level.ulr) ulrioc = (data[i][j][k].ulr.ioc).toString().substring(0, lenIoC);
+						if (level.dlr) dlrioc = (data[i][j][k].dlr.ioc).toString().substring(0, lenIoC);
 
-					ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.high.value) ? K.red(ulfioc) : ulfioc;
-					dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.high.value) ? K.red(dlfioc) : dlfioc;
-					ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.high.value) ? K.red(ulrioc) : ulrioc;
-					dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrioc) : dlrioc;
+						// Color IoC
+						if (level.ulf) ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulfioc) : ulfioc;
+						if (level.dlf) dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.low.value && data[i][j][k].dlf.ioc < C.ioc.medium.value) ? K.green(dlfioc) : dlfioc;
+						if (level.ulr) ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.low.value && data[i][j][k].ulr.ioc < C.ioc.medium.value) ? K.green(ulrioc) : ulrioc;
+						if (level.dlr) dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.low.value && data[i][j][k].dlr.ioc < C.ioc.medium.value) ? K.green(dlrioc) : dlrioc;
 
-					// Prepare Text
-					var ulftxt = data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ');
-					var dlftxt = data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ');
-					var ulrtxt = data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ');
-					var dlrtxt = data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ');
+						if (level.ulf) ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.medium.value && data[i][j][k].ulf.ioc < C.ioc.high.value) ? K.yellow(ulfioc) : ulfioc;
+						if (level.dlf) dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.medium.value && data[i][j][k].dlf.ioc < C.ioc.high.value) ? K.yellow(dlfioc) : dlfioc;
+						if (level.ulr) ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.medium.value && data[i][j][k].ulr.ioc < C.ioc.high.value) ? K.yellow(ulrioc) : ulrioc;
+						if (level.dlr) dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.medium.value && data[i][j][k].dlr.ioc < C.ioc.high.value) ? K.yellow(dlrioc) : dlrioc;
 
-					// Color Text
-					ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulftxt) : ulftxt;
-					dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.low.value && data[i][j][k].dlf.ioc < C.ioc.medium.value) ? K.green(dlftxt) : dlftxt;
-					ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.low.value && data[i][j][k].ulr.ioc < C.ioc.medium.value) ? K.green(ulrtxt) : ulrtxt;
-					dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.low.value && data[i][j][k].dlr.ioc < C.ioc.medium.value) ? K.green(dlrtxt) : dlrtxt;
+						if (level.ulf) ulfioc = (data[i][j][k].ulf.ioc >= C.ioc.high.value) ? K.red(ulfioc) : ulfioc;
+						if (level.dlf) dlfioc = (data[i][j][k].dlf.ioc >= C.ioc.high.value) ? K.red(dlfioc) : dlfioc;
+						if (level.ulr) ulrioc = (data[i][j][k].ulr.ioc >= C.ioc.high.value) ? K.red(ulrioc) : ulrioc;
+						if (level.dlr) dlrioc = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrioc) : dlrioc;
+					}
 
-					ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.medium.value && data[i][j][k].ulf.ioc < C.ioc.high.value) ? K.yellow(ulftxt) : ulftxt;
-					dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.medium.value && data[i][j][k].dlf.ioc < C.ioc.high.value) ? K.yellow(dlftxt) : dlftxt;
-					ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.medium.value && data[i][j][k].ulr.ioc < C.ioc.high.value) ? K.yellow(ulrtxt) : ulrtxt;
-					dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.medium.value && data[i][j][k].dlr.ioc < C.ioc.high.value) ? K.yellow(dlrtxt) : dlrtxt;
+					if (level.text)
+					{
+						// Prepare Text
+						if (level.ulf) ulftxt = (level.truncate) ? data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ');
+						if (level.dlf) dlftxt = (level.truncate) ? data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ');
+						if (level.ulr) ulrtxt = (level.truncate) ? data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ');
+						if (level.dlr) dlrtxt = (level.truncate) ? data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ');
 
-					ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.high.value) ? K.red(ulftxt) : ulftxt;
-					dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.high.value) ? K.red(dlftxt) : dlftxt;
-					ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.high.value) ? K.red(ulrtxt) : ulrtxt;
-					dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrtxt) : dlrtxt;
+						// Color Text
+						if (level.ulf) ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulftxt) : ulftxt;
+						if (level.dlf) dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.low.value && data[i][j][k].dlf.ioc < C.ioc.medium.value) ? K.green(dlftxt) : dlftxt;
+						if (level.ulr) ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.low.value && data[i][j][k].ulr.ioc < C.ioc.medium.value) ? K.green(ulrtxt) : ulrtxt;
+						if (level.dlr) dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.low.value && data[i][j][k].dlr.ioc < C.ioc.medium.value) ? K.green(dlrtxt) : dlrtxt;
+
+						if (level.ulf) ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.medium.value && data[i][j][k].ulf.ioc < C.ioc.high.value) ? K.yellow(ulftxt) : ulftxt;
+						if (level.dlf) dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.medium.value && data[i][j][k].dlf.ioc < C.ioc.high.value) ? K.yellow(dlftxt) : dlftxt;
+						if (level.ulr) ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.medium.value && data[i][j][k].ulr.ioc < C.ioc.high.value) ? K.yellow(ulrtxt) : ulrtxt;
+						if (level.dlr) dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.medium.value && data[i][j][k].dlr.ioc < C.ioc.high.value) ? K.yellow(dlrtxt) : dlrtxt;
+
+						if (level.ulf) ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.high.value) ? K.red(ulftxt) : ulftxt;
+						if (level.dlf) dlftxt = (data[i][j][k].dlf.ioc >= C.ioc.high.value) ? K.red(dlftxt) : dlftxt;
+						if (level.ulr) ulrtxt = (data[i][j][k].ulr.ioc >= C.ioc.high.value) ? K.red(ulrtxt) : ulrtxt;
+						if (level.dlr) dlrtxt = (data[i][j][k].dlr.ioc >= C.ioc.high.value) ? K.red(dlrtxt) : dlrtxt;
+					}
 
 					// Glue together string
-					str += 'ULF:\t' + ulfioc + '\t' + ulftxt + '\n\n';
-					str += 'DLF:\t' + dlfioc + '\t' + dlftxt + '\n\n';
-					str += 'ULR:\t' + ulrioc + '\t' + ulrtxt + '\n\n';
-					str += 'DLR:\t' + dlrioc + '\t' + dlrtxt + '\n\n';
-					//str += '\n';
-
-					// Glue matched words to the end
-					str += 'ULF:\t';
-
-					var tmp1 = '';
-					for(var ii = 0; ii < Object.keys(data[i][j][k].ulf.frequency).length; ii ++)
+					if (level.ioc || level.text)
 					{
-						tmp1 += Object.keys(data[i][j][k].ulf.frequency)[ii] + ' ';
+						var tfoo1 = '', tfoo2 = '', tfoo3 = '', tfoo4 = '';
+
+						if (level.ioc)
+						{
+							if (level.ulf) tfoo1 = ulfioc + '\t';
+							if (level.dlf) tfoo2 = dlfioc + '\t';
+							if (level.ulr) tfoo3 = ulrioc + '\t';
+							if (level.dlr) tfoo4 = dlrioc + '\t';
+						}
+
+						if (level.ulf) str += (level.legend) ? K.bold('ULF:\t') + tfoo1 + ulftxt + '\n\n' : tfoo1 + ulftxt + '\n\n';
+						if (level.dlf) str += (level.legend) ? K.bold('DLF:\t') + tfoo2 + dlftxt + '\n\n' : tfoo2 + dlftxt + '\n\n';
+						if (level.ulr) str += (level.legend) ? K.bold('ULR:\t') + tfoo3 + ulrtxt + '\n\n' : tfoo3 + ulrtxt + '\n\n';
+						if (level.dlr) str += (level.legend) ? K.bold('DLR:\t') + tfoo4 + dlrtxt + '\n\n' : tfoo4 + dlrtxt + '\n\n';
 					}
 
-					str += K.blue(tmp1.substring(0, 110));
-
-					str += '\n\n' + 'DLF:\t';
-
-					var tmp2 = '';
-					for(var jj = 0; jj < Object.keys(data[i][j][k].dlf.frequency).length; jj ++)
+					if (level.dict)
 					{
-						tmp2 += Object.keys(data[i][j][k].dlf.frequency)[jj] + ' ';
+						// Glue matched words to the end
+						str += (level.legend) ? K.bold('ULF:\t') : '';
+						var tmp1 = '';
+						if (level.ulf) for(var ii = 0; ii < Object.keys(data[i][j][k].ulf.frequency).length; ii ++) tmp1 += Object.keys(data[i][j][k].ulf.frequency)[ii] + ' ';
+						if (level.ulf) str += (level.truncate) ? K.magenta(tmp1.substring(0, lenWords)) : K.magenta(tmp1);
+
+						str += (level.legend) ? '\n\n' + K.bold('DLF:\t') : '';
+						var tmp2 = '';
+						if (level.dlf) for(var jj = 0; jj < Object.keys(data[i][j][k].dlf.frequency).length; jj ++) tmp2 += Object.keys(data[i][j][k].dlf.frequency)[jj] + ' ';
+						if (level.dlf) str += (level.truncate) ? K.magenta(tmp2.substring(0, lenWords)) : K.magenta(tmp2);
+
+						str += (level.legend) ? '\n\n' + K.bold('ULR:\t') : '';
+						var tmp3 = '';
+						if (level.ulr) for(var kk = 0; kk < Object.keys(data[i][j][k].ulr.frequency).length; kk ++) tmp3 += Object.keys(data[i][j][k].ulr.frequency)[kk] + ' ';
+						if (level.ulr) str += (level.truncate) ? K.magenta(tmp3.substring(0, lenWords)) : K.magenta(tmp3);
+
+						str += (level.legend) ? '\n\n' + K.bold('DLR:\t') : '';
+						var tmp4 = '';
+						if (level.dlr) for(var ll = 0; ll < Object.keys(data[i][j][k].dlr.frequency).length; ll ++) tmp4 += Object.keys(data[i][j][k].dlr.frequency)[ll] + ' ';
+						if (level.dlr) str += (level.truncate) ? K.magenta(tmp4.substring(0, lenWords)) : K.magenta(tmp4);
 					}
 
-					str += K.blue(tmp2.substring(0, 110));
-
-					str += '\n\n' + 'ULR:\t';
-
-					var tmp3 = '';
-					for(var kk = 0; kk < Object.keys(data[i][j][k].ulr.frequency).length; kk ++)
-					{
-						tmp3 += Object.keys(data[i][j][k].ulr.frequency)[kk] + ' ';
-					}
-
-					str += K.blue(tmp3.substring(0, 110));
-
-					str += '\n\n' + 'DLR:\t';
-
-					var tmp4 = '';
-					for(var ll = 0; ll < Object.keys(data[i][j][k].dlr.frequency).length; ll ++)
-					{
-						tmp4 += Object.keys(data[i][j][k].dlr.frequency)[ll] + ' ';
-					}
-
-					str += K.blue(tmp4.substring(0, 110));
-
-					str += '\n\n\n\n';
+					str += '\n\n';
 
 				}
 
-				str += '\n';
+				//str += '\n';
 			}
 		}
 

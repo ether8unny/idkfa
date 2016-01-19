@@ -84,9 +84,9 @@ var E =
 				// Pad keys from config to chunks length and add them to tkeys.
 				if (K.keys.length > 0) for (var y = 0, yy = K.keys.length; y < yy; y ++ ) tkeys[i][j].push(K.pad(K.keys[y].slice(0), keylen));
 
-				// <!--				-->
-				// <!--	Test Keys	-->
-				// <!--				-->
+				// <!--						-->
+				// <!--	Test Keys as fn()	-->
+				// <!--						-->
 
 			//////// Build streams of common sequences.
 
@@ -94,20 +94,21 @@ var E =
 				//var keyInt		= N.integer(keylen);
 
 				//console.log('[-] Generating primes: ' + keylen + '..');
-				//var keyPrime	= N.prime(keylen);
+				var keyPrime	= N.prime(keylen);
 
 				//console.log('[-] Generating pi: ' + keylen + '..');
 				//var keyPi		= N.pi(keylen);
 
 			//////// Add key section 15 (phi(prime))
 
-				//var keySection15 = [];
-				//for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
-				//tkeys[i][j].push(keySection15);
+				var keySection15 = [];
+				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
+				tkeys[i][j].push(keySection15);
 
 			//////// Select Gematria values of words (GVW) as key. Cumulative! K.select({w:[0,1], c:[0,1]}) will return [w0,w1,c0,c1]
 
 				// Test GVW and phi(GVW) per paragraph.
+				/*
 				var gvByP = [], gvPhiByP = [];
 
 				var solvedByP	= [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,33,34];
@@ -126,7 +127,7 @@ var E =
 				}
 
 				tkeys[i][j] = tkeys[i][j].concat(gvByP).concat(gvPhiByP);
-
+				*/
 
 			//////// Key rotation.
 
@@ -134,9 +135,9 @@ var E =
 				//for (var z = 0; z < keylen; z ++) tkeys[i][j].push(K.rotate(key06.slice(0), z));
 
 
-				// <!-- -->
-				// <!-- -->
-				// <!-- -->
+				// <!-- 			-->
+				// <!-- 			-->
+				// <!-- 			-->
 
 				// Loop through keys
 				for (var k = 0, kk = tkeys[i][j].length; k < kk; k ++)
