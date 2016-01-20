@@ -85,7 +85,7 @@ var E =
 				if (K.keys.length > 0) for (var y = 0, yy = K.keys.length; y < yy; y ++ ) tkeys[i][j].push(K.pad(K.keys[y].slice(0), keylen));
 
 				// <!--						-->
-				// <!--	Test Keys as fn()	-->
+				// <!--	Test keys as fn()	-->
 				// <!--						-->
 
 			//////// Build streams of common sequences.
@@ -104,30 +104,6 @@ var E =
 				var keySection15 = [];
 				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
 				tkeys[i][j].push(keySection15);
-
-			//////// Select Gematria values of words (GVW) as key. Cumulative! K.select({w:[0,1], c:[0,1]}) will return [w0,w1,c0,c1]
-
-				// Test GVW and phi(GVW) per paragraph.
-				/*
-				var gvByP = [], gvPhiByP = [];
-
-				var solvedByP	= [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,33,34];
-				var unsolvedByP	= [16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32];
-				var paragraphs	= solvedByP.concat(unsolvedByP).sort();
-
-				// Use paragraphs as keys.
-				for (var iii = 0; iii < paragraphs.length; iii ++)
-				{
-					// Grab paragraph as GVW and pad/truncate to keylen.
-					gvByP[iii] = K.pad(K.select({p:[paragraphs[iii]]}), keylen);
-
-					// Walk trough values and calc phi().
-					gvPhiByP[iii] = [];
-					for (var www = 0, wwww = gvByP[iii].length; www < wwww; www ++) gvPhiByP[iii][www] = nt.eulerPhi(gvByP[iii][www]);
-				}
-
-				tkeys[i][j] = tkeys[i][j].concat(gvByP).concat(gvPhiByP);
-				*/
 
 			//////// Key rotation.
 
@@ -177,14 +153,14 @@ var E =
 							// Shift along a forward Gematria
 							G.reset();
 
-							data[i][j][k].ulf.chars[l] = G.shift(current.chunks[j][l], shift);
-							data[i][j][k].dlf.chars[l] = G.shift(current.chunks[j][l], - shift);
+							data[i][j][k].ulf.chars[l] = G.shift(current.chunks[j][l], shift, 1);
+							data[i][j][k].dlf.chars[l] = G.shift(current.chunks[j][l], - shift, 1);
 
 							// Shift along a reversed Gematria
 							G.reverse();
 
-							data[i][j][k].ulr.chars[l] = G.shift(current.chunks[j][l], shift);
-							data[i][j][k].dlr.chars[l] = G.shift(current.chunks[j][l], - shift);
+							data[i][j][k].ulr.chars[l] = G.shift(current.chunks[j][l], shift, 1);
+							data[i][j][k].dlr.chars[l] = G.shift(current.chunks[j][l], - shift, 1);
 
 							// Advance key
 							m ++;
@@ -266,8 +242,6 @@ var E =
 						}
 						data[i][j][k].dlr.frequency = dlrf;
 					}
-
-					//console.log(data[i][j][k]);
 
 					// Calculate IoC of individual mutation.
 					data[i][j][k].ulf.ioc = N.ioc(data[i][j][k].ulf.chars);

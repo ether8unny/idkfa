@@ -13,11 +13,11 @@ var L =
 {
 	"log": function(data, level)
 	{
+		var lenDict		= 115;
 		var lenFuthark	= 125;
 		var lenIoC		= 10;
 		var lenKey		= 110;
-		var lenString	= (level.ioc) ? 100 : 117;
-		var lenWords	= 115;
+		var lenLatin	= (level.ioc) ? 100 : 117;
 
 		var str = '\n';
 
@@ -29,13 +29,13 @@ var L =
 			{
 				str += (Object.keys(level).length > 0) ? K.bold.red('Data: ' + j) + '\n\n' : '';
 				str += (level.stats) ? 'Words: ' + data[i][j].wordcount + ' // FChars: ' + data[i][j].charcount + ' // CRC: ' + data[i][j].crc + '\n\n' : '';
-				str += (level.futhark) ? (level.truncate) ? data[i][j].futhark.substring(0, lenFuthark) + '\n\n' : data[i][j].futhark + '\n\n' : '';
+				str += (level.futhark) ? (level.truncatefuthark) ? data[i][j].futhark.substring(0, lenFuthark) + '..\n\n' : data[i][j].futhark + '\n\n' : '';
 				//str += (keys || dict) ? '---------------------------------------------------------------------------------------------------------------------------' + '\n\n' : '';
 
 				// Display chunk data.
 				for (var k = 0; k < data[i][j].length; k ++)
 				{
-					data[i][j][k].key = (level.truncate) ? data[i][j][k].key.substring(0, lenKey) : data[i][j][k].key;
+					data[i][j][k].key = (level.truncatekey) ? data[i][j][k].key.substring(0, lenKey) + '..' : data[i][j][k].key;
 
 					str += (level.keys) ? (level.legend) ? K.bold('Key:\t') + data[i][j][k].key + '\n\n' : data[i][j][k].key + '\n\n' : '';
 
@@ -70,10 +70,10 @@ var L =
 					if (level.text)
 					{
 						// Prepare Text
-						if (level.ulf) ulftxt = (level.truncate) ? data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ');
-						if (level.dlf) dlftxt = (level.truncate) ? data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ');
-						if (level.ulr) ulrtxt = (level.truncate) ? data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ');
-						if (level.dlr) dlrtxt = (level.truncate) ? data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ').substring(0, lenString) : data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ');
+						if (level.ulf) ulftxt = (level.truncatelatin) ? data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ').substring(0, lenLatin) + '..' : data[i][j][k].ulf.chars.join('').replace(/[-]/g, '  ');
+						if (level.dlf) dlftxt = (level.truncatelatin) ? data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ').substring(0, lenLatin) + '..' : data[i][j][k].dlf.chars.join('').replace(/[-]/g, '  ');
+						if (level.ulr) ulrtxt = (level.truncatelatin) ? data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ').substring(0, lenLatin) + '..' : data[i][j][k].ulr.chars.join('').replace(/[-]/g, '  ');
+						if (level.dlr) dlrtxt = (level.truncatelatin) ? data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ').substring(0, lenLatin) + '..' : data[i][j][k].dlr.chars.join('').replace(/[-]/g, '  ');
 
 						// Color Text
 						if (level.ulf) ulftxt = (data[i][j][k].ulf.ioc >= C.ioc.low.value && data[i][j][k].ulf.ioc < C.ioc.medium.value) ? K.green(ulftxt) : ulftxt;
@@ -117,22 +117,22 @@ var L =
 						str += (level.legend) ? K.bold('ULF:\t') : '';
 						var tmp1 = '';
 						if (level.ulf) for(var ii = 0; ii < Object.keys(data[i][j][k].ulf.frequency).length; ii ++) tmp1 += Object.keys(data[i][j][k].ulf.frequency)[ii] + ' ';
-						if (level.ulf) str += (level.truncate) ? K.magenta(tmp1.substring(0, lenWords)) : K.magenta(tmp1);
+						if (level.ulf) str += (level.truncatedict) ? K.magenta(tmp1.substring(0, lenDict)) : K.magenta(tmp1);
 
 						str += (level.legend) ? '\n\n' + K.bold('DLF:\t') : '';
 						var tmp2 = '';
 						if (level.dlf) for(var jj = 0; jj < Object.keys(data[i][j][k].dlf.frequency).length; jj ++) tmp2 += Object.keys(data[i][j][k].dlf.frequency)[jj] + ' ';
-						if (level.dlf) str += (level.truncate) ? K.magenta(tmp2.substring(0, lenWords)) : K.magenta(tmp2);
+						if (level.dlf) str += (level.truncatedict) ? K.magenta(tmp2.substring(0, lenDict)) : K.magenta(tmp2);
 
 						str += (level.legend) ? '\n\n' + K.bold('ULR:\t') : '';
 						var tmp3 = '';
 						if (level.ulr) for(var kk = 0; kk < Object.keys(data[i][j][k].ulr.frequency).length; kk ++) tmp3 += Object.keys(data[i][j][k].ulr.frequency)[kk] + ' ';
-						if (level.ulr) str += (level.truncate) ? K.magenta(tmp3.substring(0, lenWords)) : K.magenta(tmp3);
+						if (level.ulr) str += (level.truncatedict) ? K.magenta(tmp3.substring(0, lenDict)) : K.magenta(tmp3);
 
 						str += (level.legend) ? '\n\n' + K.bold('DLR:\t') : '';
 						var tmp4 = '';
 						if (level.dlr) for(var ll = 0; ll < Object.keys(data[i][j][k].dlr.frequency).length; ll ++) tmp4 += Object.keys(data[i][j][k].dlr.frequency)[ll] + ' ';
-						if (level.dlr) str += (level.truncate) ? K.magenta(tmp4.substring(0, lenWords)) : K.magenta(tmp4);
+						if (level.dlr) str += (level.truncatedict) ? K.magenta(tmp4.substring(0, lenDict)) : K.magenta(tmp4);
 					}
 
 					str += '\n\n';

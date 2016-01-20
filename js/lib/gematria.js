@@ -42,7 +42,9 @@ var G =
 			}
 		}
 
-		return (enc === 1) ? this.table[offset][2] : this.table[offset][1];
+		if (enc === 0) return this.table[offset][0];
+		else if (enc === 2) return this.table[offset][2];
+		else return this.table[offset][1];
 	},
 
 	"value": function (word, direction)
@@ -52,7 +54,7 @@ var G =
 
 		var chars = word.split('');
 
-		for (var i = 0, sum = 0, ii = chars.length; i < ii; i ++) sum += this.shift(chars[i], 0, 1);
+		for (var i = 0, sum = 0, ii = chars.length; i < ii; i ++) sum += this.shift(chars[i], 0, 2);
 
 		return sum;
 	}

@@ -86,7 +86,7 @@
 #
 #	SEGMENT 2 - BREAK 1
 #
-#	Key: 6, 19, 28, 19, 20, 19, 13, 3 (DIVINITY). Shift down reversed Gematria.
+#	Key: 6, 19, 28, 19, 20, 19, 13, 3 (DIVINITY). Shift up forward Gematria.
 #
 #	Note: Every clear text F is an ᚠ (F), and needs to be skipped.
 #
@@ -239,7 +239,7 @@
 #
 #	SEGMENT 4 - BREAK 1
 #
-#	Key: Shift + 3 up reversed Gematria.
+#	Key: Shift 3 down reversed Gematria.
 #
 #
 #	ᚹ•ᚣᛠᚹᛟ
@@ -324,7 +324,7 @@
 #
 #	SEGMENT 4 - BREAK 2
 #
-#	Key: Shift + 3 up reversed Gematria.
+#	Key: Shift 3 down reversed Gematria.
 #
 #
 #	ᚹᛟ•ᛝᛟᛏᛋᛡᚢᚣᛋᚱᛟ
@@ -480,7 +480,7 @@
 #
 #	SEGMENT 6 - BREAK 1
 #
-#	Key: 29, 19, 25, 29, 28, 10, 29, 11, 25, 11, 20, 29, 11 (FIRFUMFERENFE). Shift down Gematria.
+#	Key: 29, 19, 25, 29, 28, 10, 29, 11, 25, 11, 20, 29, 11 (FIRFUMFERENFE). Shift up forward Gematria.
 #
 #	Note: Every clear text F is an ᚠ (F), and needs to be skipped.
 #
@@ -1054,7 +1054,7 @@
 #
 #	SEGMENT 15 - BREAK 1
 #
-#	Key: phi(prime). Shift up Gematria.
+#	Key: phi(prime). Shift down forward Gematria.
 #
 #	Note: Every clear text F is an ᚠ (F), and needs to be skipped.
 #

@@ -9,29 +9,32 @@ var C =
 {
 	"log":
 	{
-		'dict':		true,
-		'futhark':	true,
-		'ioc':		true,
-		'keys':		true,
-		'stats':	true,
-		'text':		true,
-		'truncate':	true,
-		'legend':	true,
-		'ulf':		true,
-		'dlf':		true,
-		'ulr':		true,
-		'dlr':		true
+		'dict':				true,
+		'futhark':			true,
+		'ioc':				true,
+		'keys':				true,
+		'stats':			true,
+		'text':				true,
+		'truncatefuthark':	true,
+		'truncatekey':		true,
+		'truncatelatin':	true,
+		'truncatedict':		true,
+		'legend':			true,
+		'ulf':				true,
+		'dlf':				true,
+		'ulr':				true,
+		'dlr':				true
 	},
 
 	"keys":
 	[
-		[[0]],					// Section 0, 2, 4, 6, 16
+		[[0]],				// Section 0, 2, 4, 6, 16
 		['divinity', 1],		// Section 1
-		[[3]],					// Section 3
+		[[3]],				// Section 3
 		['firfumferenfe', 1]	// Section 5
 	],
 
-	"raw": "./data/liber",
+	"raw": "./data/liber-touched",
 
 	"encoding": "utf8",
 
@@ -71,7 +74,7 @@ var C =
 
 		"minchar": 2,
 		"maxchar": 6,
-		"include": ['banana', 'ninja', 'WISDOM', 'COAN', 'MASTER', 'PRIMES', 'INSTAR'],
+		"include": ['banana', 'ninja', 'DIUINITY', 'WISDOM', 'COAN', 'MASTER', 'PRIMES', 'INSTAR', 'circumference', 'circumferences'],
 		"exclude": ['i', 'he', 'cat', 'dog']
 	}
 };
