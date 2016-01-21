@@ -19,12 +19,12 @@ console.log('\r');
 var data = S.get({s:[0,1,2,3,4,5,6,15,16]});
 //console.log('[-] Done loading chunks..');
 
-// Process data with n iterations.
+// Process data.
 //console.log('[-] Processing data..');
-data = E.process(data, 1);
+data = E.process(data, 1, 1);
 //console.log('[-] Done processing data..');
 
 // Log data.
 //console.log('[-] Logging..');
 L.log(data, C.log);
-//console.log('[-] Done Logging..');
+//console.log('[-] Done Logging..')

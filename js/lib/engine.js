@@ -31,7 +31,7 @@ var E =
 	*	@param	{integer}
 	*	@return	{array}
 	*/
-	"process": function (chunks, iteration)
+	"process": function (chunks, enc, iteration)
 	{
 		//
 		var tkeys = [], data = [], current;
@@ -153,14 +153,14 @@ var E =
 							// Shift along a forward Gematria
 							G.reset();
 
-							data[i][j][k].ulf.chars[l] = G.shift(current.chunks[j][l], shift, 1);
-							data[i][j][k].dlf.chars[l] = G.shift(current.chunks[j][l], - shift, 1);
+							data[i][j][k].ulf.chars[l] = G.shift(current.chunks[j][l], shift, enc);
+							data[i][j][k].dlf.chars[l] = G.shift(current.chunks[j][l], - shift, enc);
 
 							// Shift along a reversed Gematria
 							G.reverse();
 
-							data[i][j][k].ulr.chars[l] = G.shift(current.chunks[j][l], shift, 1);
-							data[i][j][k].dlr.chars[l] = G.shift(current.chunks[j][l], - shift, 1);
+							data[i][j][k].ulr.chars[l] = G.shift(current.chunks[j][l], shift, enc);
+							data[i][j][k].dlr.chars[l] = G.shift(current.chunks[j][l], - shift, enc);
 
 							// Advance key
 							m ++;

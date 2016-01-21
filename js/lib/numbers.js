@@ -104,7 +104,7 @@ var N =
 	"frequency": function (chars)
 	{
 		var f = {};
-		for (var i = 0, ii = chars.length; i < ii; i ++) {var c = chars[i].toUpperCase(); f[c] = f[c] ? f[c] + 1 : 1;}
+		for (var i = 0, ii = chars.length; i < ii; i ++) {var c = (_.isString(chars[i])) ? chars[i].toUpperCase() : chars[i]; f[c] = f[c] ? f[c] + 1 : 1;}
 		return f;
 	},
 

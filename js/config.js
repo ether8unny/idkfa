@@ -74,7 +74,53 @@ var C =
 
 		"minchar": 2,
 		"maxchar": 6,
-		"include": ['banana', 'ninja', 'DIUINITY', 'WISDOM', 'COAN', 'MASTER', 'PRIMES', 'INSTAR', 'circumference', 'circumferences'],
+		"include":
+		[
+			'banana',
+			'ninja',
+
+			'CONTAINED',
+			'WORDS',
+			'NUMBERS',
+
+			'DIUINITY',
+			'PILGRIM', 'PILGRIMS', 'PILGRIMAGE',
+			'TH(I)NGS',
+			'INNOCENCE',
+			'REALITIES',
+			'INSTAR',
+
+			'TOTIENT', 'TOTIENTS',
+			'ENCRYPT', 'ENCRYPTED',
+
+			'DECIDE', 'DECIDED',
+			'PROFESSOR',
+			'INHABIT(I)NG',
+			'ARBITRARY',
+			'UNREASONABLE',
+
+			'WISDOM',
+			'COAN',
+			'MASTER',
+			'PRIME', 'PRIMES', 'PRIMALITY',
+
+			'CIRCUMFERENCE', 'CIRCUMFERENCES',
+			'PRACTICE', 'PRACTICES',
+			'BEHAUI(A/O)R', 'BEHAUI(A/O)RS',
+			'DECEPTI(A/O)N',
+			'PRESERUE', 'PRESERUATI(A/O)N',
+			'DECEPT', 'DECEPTI(A/O)N',
+			'ADHERENCE',
+			'DOGMA',
+
+			'EXPLAIN', 'EXPLAINED',
+			'ENLIGHTENED',
+
+			'CWESTI(A/O)N',
+
+			'PARABLE',
+			'TUNNEL', 'TUNNEL(I)NG'
+		],
 		"exclude": ['i', 'he', 'cat', 'dog']
 	}
 };

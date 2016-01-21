@@ -44,6 +44,7 @@ var G =
 
 		if (enc === 0) return this.table[offset][0];
 		else if (enc === 2) return this.table[offset][2];
+		else if (enc === 3) return offset;
 		else return this.table[offset][1];
 	},
 
