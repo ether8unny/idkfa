@@ -17,7 +17,7 @@ var C =
 		'text':				true,
 		'truncatefuthark':	true,
 		'truncatekey':		true,
-		'truncatelatin':	true,
+		'truncatelatin':	false,
 		'truncatedict':		true,
 		'legend':			true,
 		'ulf':				true,
@@ -34,7 +34,7 @@ var C =
 		['firfumferenfe', 1]	// Section 5
 	],
 
-	"raw": "./data/liber-touched",
+	"raw": "./data/liber-work",
 
 	"encoding": "utf8",
 
