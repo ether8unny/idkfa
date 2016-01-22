@@ -1,5 +1,5 @@
 #
-#	Checksum = Gematria value
+# Checksum = Gematria value
 #
 
 Word: 0
@@ -336,7 +336,7 @@ Word: 55
 
 Words: 1 // FChars: 2 // CRC: 4
 
-ᚠF
+ᚠᚠ
 
 Word: 56
 
@@ -396,7 +396,7 @@ Word: 65
 
 Words: 1 // FChars: 3 // CRC: 58
 
-Fᛈᚳ
+ᚠᛈᚳ
 
 Word: 66
 
@@ -414,7 +414,7 @@ Word: 68
 
 Words: 1 // FChars: 4 // CRC: 117
 
-Fᛄᛗᚩ
+ᚠᛄᛗᚩ
 
 Word: 69
 
@@ -498,7 +498,7 @@ Word: 82
 
 Words: 1 // FChars: 4 // CRC: 117
 
-Fᛚᛁᚱ
+ᚠᛚᛁᚱ
 
 Word: 83
 
@@ -540,7 +540,7 @@ Word: 89
 
 Words: 1 // FChars: 7 // CRC: 267
 
-ᚫᚦFFᛠᛈᚦ
+ᚫᚦᚠᚠᛠᛈᚦ
 
 Word: 90
 
@@ -642,7 +642,7 @@ Word: 106
 
 Words: 1 // FChars: 4 // CRC: 177
 
-ᚫᛗᚢF
+ᚫᛗᚢᚠ
 
 Word: 107
 
@@ -882,7 +882,7 @@ Word: 146
 
 Words: 1 // FChars: 8 // CRC: 455
 
-ᛞᚣᛄᚳᚫᛡᚢF
+ᛞᚣᛄᚳᚫᛡᚢᚠ
 
 Word: 147
 
@@ -918,7 +918,7 @@ Word: 152
 
 Words: 1 // FChars: 8 // CRC: 343
 
-ᚷᛈᛒᚢᚾᛠᛝF
+ᚷᛈᛒᚢᚾᛠᛝᚠ
 
 Word: 153
 
@@ -948,7 +948,7 @@ Word: 157
 
 Words: 1 // FChars: 3 // CRC: 152
 
-Fᚣᛉ
+ᚠᚣᛉ
 
 Word: 158
 
@@ -1014,7 +1014,7 @@ Word: 168
 
 Words: 1 // FChars: 4 // CRC: 177
 
-ᚫᚳᛒF
+ᚫᚳᛒᚠ
 
 Word: 169
 
@@ -3564,7 +3564,7 @@ Word: 593
 
 Words: 1 // FChars: 2 // CRC: 81
 
-ᛝF
+ᛝᚠ
 
 Word: 594
 
@@ -3576,7 +3576,7 @@ Word: 595
 
 Words: 1 // FChars: 13 // CRC: 566
 
-ᛞᛁᛉᚾᚢᛚFᚻᚱᚹᛈᛞᛡ
+ᛞᛁᛉᚾᚢᛚᚠᚻᚱᚹᛈᛞᛡ
 
 Word: 596
 
@@ -21618,7 +21618,7 @@ Word: 3602
 
 Words: 1 // FChars: 2 // CRC: 13
 
-ᚱF
+ᚱᚠ
 
 Word: 3603
 
