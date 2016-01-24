@@ -21781,11 +21781,3 @@ Word: 3629
 Words: 1 // FChars: 6 // CRC: 300
 
 ᛖᛗᛖᚱᚷᛖ
-
-Word: 3630
-
-Words: 1 // FChars: 0 // CRC: 0
-
-
-
-
