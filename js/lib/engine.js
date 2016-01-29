@@ -105,11 +105,25 @@ var E =
 				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
 				tkeys[i][j].push(keySection15);
 
+			//////// Test key 2^prime
+
+				//var keyPrimePower = [];
+				//for (var kpp = 0; kpp < keyPrime.length; kpp ++) keyPrimePower.push(Math.pow(keyPrime[kpp], 2));
+				//tkeys[i][j].push(keyPrimePower);
+
+			////////
+
+				//var oddInteger = N.integer(keylen, 1);
+				//var KeyOddPower = [];
+				//for (var op = 0; op < oddInteger.length; op ++) KeyOddPower.push(Math.pow(oddInteger[op], 2));
+				//tkeys[i][j].push(KeyOddPower);
+
 			//////// Key rotation.
 
 				// Rotate key full circle.
-				//for (var z = 0; z < keylen; z ++) tkeys[i][j].push(K.rotate(key06.slice(0), z));
+				//for (var z = 0; z < keylen; z ++) tkeys[i][j].push(K.rotate(KeyOddPower.slice(0), z));
 
+			////////
 
 				// <!-- 			-->
 				// <!-- 			-->

@@ -28,7 +28,7 @@ var L =
 			for (var j = 0; j < data[i].length; j ++)
 			{
 				str += (Object.keys(level).length > 0) ? K.bold.red('Data: ' + j) + '\n\n' : '';
-				str += (level.stats) ? 'Words: ' + data[i][j].wordcount + ' // FChars: ' + data[i][j].charcount + ' // CRC: ' + data[i][j].crc + '\n\n' : '';
+				str += (level.stats) ? 'Words: ' + data[i][j].wordcount + ' // Chars: ' + data[i][j].charcount + ' // CRC: ' + data[i][j].crc + '\n\n' : '';
 				str += (level.futhark) ? (level.truncatefuthark) ? data[i][j].futhark.substring(0, lenFuthark) + '..\n\n' : data[i][j].futhark + '\n\n' : '';
 				//str += (keys || dict) ? '---------------------------------------------------------------------------------------------------------------------------' + '\n\n' : '';
 

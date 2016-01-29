@@ -47,10 +47,15 @@ var N =
 		return s;
 	},
 
-	"integer": function(length)
+	"integer": function(length, oddeven)
 	{
 		var n = [];
-		for (var i = 0; i < length; i ++) n.push(i);
+		for (var i = 0, j = 0; j < length; i ++)
+		{
+			if (oddeven === 1) {if (i % 2 === 1) {n.push(i); j++;}}
+			else if (oddeven === 2) {if (i % 2 === 0) {n.push(i); j++;}}
+			else {n.push(i); j++;}
+		}
 		return n;
 	},
 
