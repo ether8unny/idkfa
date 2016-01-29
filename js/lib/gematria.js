@@ -5,7 +5,8 @@
 //	Gematria
 //
 
-var _ = require('underscore');
+var C = require('../config'),
+	_ = require('underscore');
 
 var G =
 {
@@ -55,7 +56,13 @@ var G =
 
 		var chars = word.split('');
 
-		for (var i = 0, sum = 0, ii = chars.length; i < ii; i ++) sum += this.shift(chars[i], 0, 2);
+		for (var i = 0, sum = 0, ii = chars.length; i < ii; i ++)
+		{
+			if (!C.passthrough[chars[i]])
+			{
+				sum += this.shift(chars[i], 0, 2);
+			}
+		}
 
 		return sum;
 	}

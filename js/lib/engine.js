@@ -67,7 +67,7 @@ var E =
 
 				// Calculate 'checksum'.
 				for (var x = 0, crc = 0, xx = words.length; x < xx; x ++) crc += G.value(words[x]);
-				data[i][j].crc = crc;
+				data[i][j].crc = crc + ((nt.isPrime(crc)) ? ' (Prime)' : '');
 
 				// Add word/char count and char frequency to output.
 				data[i][j].wordcount = wordcount;
@@ -94,16 +94,16 @@ var E =
 				//var keyInt		= N.integer(keylen);
 
 				//console.log('[-] Generating primes: ' + keylen + '..');
-				var keyPrime	= N.prime(keylen);
+				//var keyPrime	= N.prime(keylen);
 
 				//console.log('[-] Generating pi: ' + keylen + '..');
 				//var keyPi		= N.pi(keylen);
 
 			//////// Add key section 15 (phi(prime))
 
-				var keySection15 = [];
-				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
-				tkeys[i][j].push(keySection15);
+				//var keySection15 = [];
+				//for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
+				//tkeys[i][j].push(keySection15);
 
 			//////// Test key 2^prime
 

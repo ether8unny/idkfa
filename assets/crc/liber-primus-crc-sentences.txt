@@ -28,7 +28,7 @@ Words: 7 // Chars: 25 // CRC: 1535
 
 Sentence: 3
 
-Words: 3 // Chars: 15 // CRC: 811
+Words: 3 // Chars: 15 // CRC: 811 (Prime)
 
 ᛇᛁᛈᛇ-ᚣᛁ-ᛞᛗᚫᛝᚻᛁᚳᛟᛁ
 
@@ -100,7 +100,7 @@ Words: 12 // Chars: 48 // CRC: 2759
 
 Sentence: 12
 
-Words: 19 // Chars: 61 // CRC: 2957
+Words: 19 // Chars: 61 // CRC: 2957 (Prime)
 
 ᚣᛈ-ᚱᚫ-ᛁᛈᚫ-ᚳᚫ-ᚫᚾᚹ-ᛒᛉᛗᛞ-ᚱᛡᛁ-ᚠᛈᚳ-ᛇᛇᚫᚳ-ᚱᚦᛈ-ᚠᛄᛗᚩ-ᛇᚳᚹᛡ-ᛒᚫᚹ-ᛒᛠᛚᛋ-ᚱᚣ-ᛄᚫ-ᚱ-ᛗᚳᚦᛇᚫᛏᚳᛈᚹ-ᛗᚷᛇ
 
@@ -148,7 +148,7 @@ Words: 13 // Chars: 48 // CRC: 2576
 
 Sentence: 18
 
-Words: 1 // Chars: 6 // CRC: 193
+Words: 1 // Chars: 6 // CRC: 193 (Prime)
 
 ᛒᛗᚱᚦᚠᛈ
 
@@ -172,7 +172,7 @@ Words: 6 // Chars: 22 // CRC: 954
 
 Sentence: 21
 
-Words: 4 // Chars: 21 // CRC: 1213
+Words: 4 // Chars: 21 // CRC: 1213 (Prime)
 
 ᚾᛉᛖ-ᚣᚷᛁᛠᛝᚢᛗᛏᚳᚷᛠᛠ-ᛄᚫ-ᛒᛈᚹᛞ
 
@@ -204,7 +204,7 @@ Words: 2 // Chars: 10 // CRC: 468
 
 Sentence: 25
 
-Words: 4 // Chars: 17 // CRC: 853
+Words: 4 // Chars: 17 // CRC: 853 (Prime)
 
 ᚦᛖ-ᛈᚱᛁᛗᛖᛋ-ᚪᚱᛖ-ᛋᚪᚳᚱᛖᛞ
 
@@ -212,7 +212,7 @@ Words: 4 // Chars: 17 // CRC: 853
 
 Sentence: 26
 
-Words: 5 // Chars: 24 // CRC: 1039
+Words: 5 // Chars: 24 // CRC: 1039 (Prime)
 
 ᚦᛖ-ᛏᚩᛏᛁᛖᚾᛏ-ᚠᚢᚾᚳᛏᛡᚾ-ᛁᛋ-ᛋᚪᚳᚱᛖᛞ
 
@@ -220,7 +220,7 @@ Words: 5 // Chars: 24 // CRC: 1039
 
 Sentence: 27
 
-Words: 5 // Chars: 23 // CRC: 1237
+Words: 5 // Chars: 23 // CRC: 1237 (Prime)
 
 ᚪᛚᛚ-ᚦᛝᛋ-ᛋᚻᚩᚢᛚᛞ-ᛒᛖ-ᛖᚾᚳᚱᚣᛈᛏᛖᛞ
 
@@ -228,7 +228,7 @@ Words: 5 // Chars: 23 // CRC: 1237
 
 Sentence: 28
 
-Words: 2 // Chars: 7 // CRC: 157
+Words: 2 // Chars: 7 // CRC: 157 (Prime)
 
 ᚳᚾᚩᚹ-ᚦᛁᛋ
 
@@ -332,7 +332,7 @@ Words: 8 // Chars: 29 // CRC: 1393
 
 Sentence: 41
 
-Words: 9 // Chars: 32 // CRC: 1973
+Words: 9 // Chars: 32 // CRC: 1973 (Prime)
 
 ᚠᚹᛋ-ᛝᛏ-ᛠᛟᛄᚳ-ᚳᛠᚢᛡ-ᛏᛖᛈᚣᛝᛈᛏ-ᛟᛠᛋ-ᚪᛞᛠ-ᚳᛠᚢ-ᚹᛡᛈ
 
@@ -412,7 +412,7 @@ Words: 6 // Chars: 26 // CRC: 1299
 
 Sentence: 51
 
-Words: 4 // Chars: 16 // CRC: 643
+Words: 4 // Chars: 16 // CRC: 643 (Prime)
 
 ᚦᛖ-ᛚᚩᛋᛋ-ᚩᚠ-ᛞᛁᚢᛁᚾᛁᛏᚣ
 
@@ -476,7 +476,7 @@ Words: 6 // Chars: 24 // CRC: 894
 
 Sentence: 59
 
-Words: 1 // Chars: 11 // CRC: 547
+Words: 1 // Chars: 11 // CRC: 547 (Prime)
 
 ᛈᚱᛖᛋᛖᚱᚢᚪᛏᛡᚾ
 
@@ -500,7 +500,7 @@ Words: 14 // Chars: 47 // CRC: 1976
 
 Sentence: 62
 
-Words: 4 // Chars: 15 // CRC: 719
+Words: 4 // Chars: 15 // CRC: 719 (Prime)
 
 ᚦᛁᛋ-ᛁᛋ-ᚦᛖ-ᛞᛖᚳᛖᛈᛏᛡᚾ
 
@@ -516,7 +516,7 @@ Words: 6 // Chars: 25 // CRC: 973
 
 Sentence: 64
 
-Words: 1 // Chars: 9 // CRC: 463
+Words: 1 // Chars: 9 // CRC: 463 (Prime)
 
 ᚪᛞᚻᛖᚱᛖᚾᚳᛖ
 
@@ -556,7 +556,7 @@ Words: 4 // Chars: 12 // CRC: 640
 
 Sentence: 69
 
-Words: 6 // Chars: 26 // CRC: 1091
+Words: 6 // Chars: 26 // CRC: 1091 (Prime)
 
 ᛁᛏ-ᛁᛋ-ᚦᛖ-ᛒᛖᚻᚪᚢᛡᚱᛋ-ᚩᚠ-ᚳᚩᚾᛋᚢᛗᛈᛏᛡᚾ
 
@@ -564,7 +564,7 @@ Words: 6 // Chars: 26 // CRC: 1091
 
 Sentence: 70
 
-Words: 1 // Chars: 11 // CRC: 547
+Words: 1 // Chars: 11 // CRC: 547 (Prime)
 
 ᛈᚱᛖᛋᛖᚱᚢᚪᛏᛡᚾ
 
@@ -580,7 +580,7 @@ Words: 8 // Chars: 37 // CRC: 1825
 
 Sentence: 72
 
-Words: 4 // Chars: 17 // CRC: 673
+Words: 4 // Chars: 17 // CRC: 673 (Prime)
 
 ᚪᚾᛞ-ᚦᚢᛋ-ᚩᚢᚱ-ᛞᛁᚢᛁᚾᛁᛏᚣ
 
@@ -596,7 +596,7 @@ Words: 2 // Chars: 10 // CRC: 468
 
 Sentence: 74
 
-Words: 3 // Chars: 13 // CRC: 773
+Words: 3 // Chars: 13 // CRC: 773 (Prime)
 
 ᚪᛗᚪᛋᛋ-ᚷᚱᛠᛏ-ᚹᛠᛚᚦ
 
@@ -604,7 +604,7 @@ Words: 3 // Chars: 13 // CRC: 773
 
 Sentence: 75
 
-Words: 7 // Chars: 31 // CRC: 1399
+Words: 7 // Chars: 31 // CRC: 1399 (Prime)
 
 ᚾᛖᚢᛖᚱ-ᛒᛖᚳᚩᛗᛖ-ᚪᛏᛏᚪᚳᚻᛖᛞ-ᛏᚩ-ᚹᚻᚪᛏ-ᚣᚩᚢ-ᚩᚹᚾ
 
@@ -612,7 +612,7 @@ Words: 7 // Chars: 31 // CRC: 1399
 
 Sentence: 76
 
-Words: 8 // Chars: 31 // CRC: 1583
+Words: 8 // Chars: 31 // CRC: 1583 (Prime)
 
 ᛒᛖ-ᛈᚱᛖᛈᚪᚱᛖᛞ-ᛏᚩ-ᛞᛖᛋᛏᚱᚩᚣ-ᚪᛚᛚ-ᚦᚪᛏ-ᚣᚩᚢ-ᚩᚹᚾ
 
@@ -628,7 +628,7 @@ Words: 2 // Chars: 12 // CRC: 520
 
 Sentence: 78
 
-Words: 3 // Chars: 15 // CRC: 601
+Words: 3 // Chars: 15 // CRC: 601 (Prime)
 
 ᛈᚱᚩᚷᚱᚪᛗ-ᚣᚩᚢᚱ-ᛗᛁᚾᛞ
 
@@ -636,7 +636,7 @@ Words: 3 // Chars: 15 // CRC: 601
 
 Sentence: 79
 
-Words: 2 // Chars: 13 // CRC: 643
+Words: 2 // Chars: 13 // CRC: 643 (Prime)
 
 ᛈᚱᚩᚷᚱᚪᛗ-ᚱᛠᛚᛁᛏᚣ
 
@@ -692,7 +692,7 @@ Words: 20 // Chars: 69 // CRC: 4220
 
 Sentence: 86
 
-Words: 22 // Chars: 77 // CRC: 3947
+Words: 22 // Chars: 77 // CRC: 3947 (Prime)
 
 ᚩᚻ-ᛗᛈᛗᚳᛡᚱ-ᚱᛏᛈᛒᛈᛗᛈ-ᚦᚹ-ᛗᚳᛁᛞᚹᚾᚣ-ᛠᚾᚪ-ᚳᚪᛠᛡ-ᛚᛡ-ᚢᛝᛁᛋᛟ-ᚦᚫᚷ-ᛄᛗᛗᚳ-ᚪᚪᛠᛞ-ᚹᚹᚢ-ᚾᛉᚢᚹ-ᛈᛝ-ᛁᚩᛠᚳᛠ-ᛉᚾ-ᛡᛟᚢᛟ-ᛇᛒᚩ-ᛁᚱ-ᚦᛠ-ᛉ
 
@@ -716,7 +716,7 @@ Words: 2 // Chars: 12 // CRC: 520
 
 Sentence: 89
 
-Words: 3 // Chars: 13 // CRC: 727
+Words: 3 // Chars: 13 // CRC: 727 (Prime)
 
 ᚳᚹᛖᛋᛏᛡᚾ-ᚪᛚᛚ-ᚦᛝᛋ
 
@@ -724,7 +724,7 @@ Words: 3 // Chars: 13 // CRC: 727
 
 Sentence: 90
 
-Words: 4 // Chars: 26 // CRC: 971
+Words: 4 // Chars: 26 // CRC: 971 (Prime)
 
 ᛞᛁᛋᚳᚩᚢᛖᚱ-ᛏᚱᚢᚦ-ᛁᚾᛋᛁᛞᛖ-ᚣᚩᚢᚱᛋᛖᛚᚠ
 
@@ -732,7 +732,7 @@ Words: 4 // Chars: 26 // CRC: 971
 
 Sentence: 91
 
-Words: 3 // Chars: 14 // CRC: 383
+Words: 3 // Chars: 14 // CRC: 383 (Prime)
 
 ᚠᚩᛚᛚᚩᚹ-ᚣᚩᚢᚱ-ᛏᚱᚢᚦ
 
@@ -740,7 +740,7 @@ Words: 3 // Chars: 14 // CRC: 383
 
 Sentence: 92
 
-Words: 4 // Chars: 17 // CRC: 571
+Words: 4 // Chars: 17 // CRC: 571 (Prime)
 
 ᛁᛗᛈᚩᛋᛖ-ᚾᚩᚦᛝ-ᚩᚾ-ᚩᚦᛖᚱᛋ
 
@@ -748,7 +748,7 @@ Words: 4 // Chars: 17 // CRC: 571
 
 Sentence: 93
 
-Words: 2 // Chars: 7 // CRC: 157
+Words: 2 // Chars: 7 // CRC: 157 (Prime)
 
 ᚳᚾᚩᚹ-ᚦᛁᛋ
 
@@ -836,7 +836,7 @@ Words: 3 // Chars: 16 // CRC: 742
 
 Sentence: 104
 
-Words: 19 // Chars: 103 // CRC: 5843
+Words: 19 // Chars: 103 // CRC: 5843 (Prime)
 
 ᛋᛈᚱᚷ-ᚣᚾᚪᚷᛇᛝᚾ-ᚹᚠᚣᚾᛒᛠᛡ-ᛈᚾᚣᚪᛋᛗᛒ-ᛡᛠᛡᛁ-ᚩᛒᚱᚾᛚᛠ-ᚱᛚᛚᛖᛒᚹᚾᚻᛗᚠᛟᛒ-ᛝ-ᚱᚪᛡᚷᛟᛇᛏᛗᛉ-ᛞᛇ-ᛗᚣᚻᛠ-ᛁᛚᛋ-ᚾᚹᚳᚠᛈᛗᛈᛚ-ᛠᛋᚦᚠᛟᛡ-ᚦᛖᚣ-ᚳᛄᛚᚳᛡᛗ-ᛒᛞᚳᛇ-ᛄᛁᛏᛟ-ᛞᛠᛖᛡᚾᛏ
 
@@ -844,7 +844,7 @@ Words: 19 // Chars: 103 // CRC: 5843
 
 Sentence: 105
 
-Words: 1 // Chars: 3 // CRC: 137
+Words: 1 // Chars: 3 // CRC: 137 (Prime)
 
 ᛈᛞᚦ
 
@@ -916,7 +916,7 @@ Words: 25 // Chars: 113 // CRC: 6242
 
 Sentence: 114
 
-Words: 4 // Chars: 11 // CRC: 661
+Words: 4 // Chars: 11 // CRC: 661 (Prime)
 
 ᚪᛏᛉᛒ-ᛗ-ᚷᛡᛋᛒ-ᛉᛇ
 
@@ -1116,7 +1116,7 @@ Words: 12 // Chars: 58 // CRC: 2785
 
 Sentence: 139
 
-Words: 5 // Chars: 14 // CRC: 701
+Words: 5 // Chars: 14 // CRC: 701 (Prime)
 
 ᚱᚣᚾ-ᛁᛠ-ᛚᚹᛋ-ᚠᚦᚪᛠ-ᛈᚷ
 
@@ -1124,7 +1124,7 @@ Words: 5 // Chars: 14 // CRC: 701
 
 Sentence: 140
 
-Words: 5 // Chars: 21 // CRC: 1327
+Words: 5 // Chars: 21 // CRC: 1327 (Prime)
 
 ᛏᚷᛡᛟᛠᛡᛒ-ᛉᛄᛒ-ᛖᚾ-ᛞᚠᛠᛗ-ᚦᚪᛗᚠᚪ
 
@@ -1132,7 +1132,7 @@ Words: 5 // Chars: 21 // CRC: 1327
 
 Sentence: 141
 
-Words: 30 // Chars: 106 // CRC: 5309
+Words: 30 // Chars: 106 // CRC: 5309 (Prime)
 
 ᚻᛡ-ᛗᛁᛏᛟ-ᚻᚣᚹᛏ-ᚠᛒᛁ-ᚫᛖ-ᛝᛒ-ᛚᛏᛠᛉ-ᛟᛋᚾᛉ-ᚹᛏᛠᛏ-ᛖᚢᛡᛖ-ᛉᚾᛇ-ᛟᚳᚾᚠᚩᚾᚠ-ᚳᚪ-ᚷᚱᚩ-ᛠᚦᚹᚣ-ᛒᛁ-ᛝᛇᛟ-ᚣ-ᚷᛗᚩ-ᛁᚷᛄ-ᚩᛇ-ᚢᛁᛉᛝᚪᚱᛉ-ᛏᛄᛞᛈ-ᚾᛝᚷᛏᚢ-ᛚᚷᚳᛏ-ᚢᛒᛇ-ᛈᚩᚣᚢᛏ-ᛡᚫᛏᚹᛏᛇ-ᛡᚫᚫ-ᚦᛏᛝ
 
@@ -1148,7 +1148,7 @@ Words: 7 // Chars: 43 // CRC: 2108
 
 Sentence: 143
 
-Words: 5 // Chars: 24 // CRC: 1039
+Words: 5 // Chars: 24 // CRC: 1039 (Prime)
 
 ᛋᛟᚹ-ᛈᚷᛝᛟ-ᚷᚦᚠᛄᚷᚳ-ᛒᛁᛗᛚᛇᛠᚹ-ᚾᚫᚹᚷ
 
@@ -1156,7 +1156,7 @@ Words: 5 // Chars: 24 // CRC: 1039
 
 Sentence: 144
 
-Words: 6 // Chars: 21 // CRC: 1033
+Words: 6 // Chars: 21 // CRC: 1033 (Prime)
 
 ᚩᚻᚪᛏᚾᛄ-ᚣᛝᛏᛡᛝ-ᚢ-ᚩᚠᚣ-ᛗᚢᛒ-ᛏᚠᛈ
 
@@ -1172,7 +1172,7 @@ Words: 58 // Chars: 255 // CRC: 13569
 
 Sentence: 146
 
-Words: 2 // Chars: 7 // CRC: 389
+Words: 2 // Chars: 7 // CRC: 389 (Prime)
 
 ᛇᚻᚣᚪᛈ-ᚾᛋ
 
@@ -1212,7 +1212,7 @@ Words: 3 // Chars: 11 // CRC: 430
 
 Sentence: 151
 
-Words: 52 // Chars: 226 // CRC: 11689
+Words: 52 // Chars: 226 // CRC: 11689 (Prime)
 
 ᛁᚢᛁᚢ-ᛟᚫᛄᚠᚫ-ᚢᚷᛉᛇᛈᛉ-ᚣᛠᛚᚪᛉ-ᛟᛉᛡᚦᚻᛠ-ᚾᚪᚳ-ᚢᚷᚾ-ᛈᛖᚾᚦᚩᚢᛁᛡᚱ-ᛏᛁᛒᛇᚳᚠᚷ-ᚩᚦᚪ-ᛁᛈᚻᛡᛒ-ᚹᛈᚻᚱᛞᛉᛏᚢ-ᚣᛒ-ᚠᛋᛉᚢ-ᛗᛁ-ᛡᚱ-ᛝᚢᚠᚦᛝ-ᛈᛟᛒ-ᚻᚷᚻᛡᛚ-ᚩᛞᚪᚳ-ᚦᛈᛞᛋᛡᚻᛇᛚ-ᚢᛏᛋᛞ-ᚦᚢᛞᛝ-ᛚᛉᛝ-ᛏᚩᛚ-ᚪᛚ-ᚣ-ᛟᛡᛉᚣ-ᛒᚻᚫᛄᛡᛁ-ᚱᚦᛚᚠ-ᛠᚾᛝ-ᛉᛗᛒᚩᛠᛈ-ᛖᛞᚪᚫᛏᚩᛠᛖᛠᛉᚳᛠᛏ-ᚩᛞᚳᛠᚾᚳᚦᛗ-ᛞ-ᚷᛁᚳᚹᛟ-ᚪᚢᛒᚳᚫ-ᚦᚱ-ᛋᚣᚪ-ᛏᚦᛒ-ᛝᚹᛋᚱᛁᛝ-ᛒᛁᚪᚫᛚ-ᛏᚱᛡᚫᚠᛞ-ᛝᛄᚩ-ᛡᛠᛉ-ᚪᛡᚻ-ᚱᛒᛁ-ᛞᛡᛄᚪᛈᚱᛋ-ᚢᛡ-ᚻᚷ-ᛚᛟᚠ-ᚻᚷᚫᛋ
 
@@ -1356,7 +1356,7 @@ Words: 3 // Chars: 14 // CRC: 718
 
 Sentence: 169
 
-Words: 4 // Chars: 14 // CRC: 571
+Words: 4 // Chars: 14 // CRC: 571 (Prime)
 
 ᛡᚦᚠᛋᚾ-ᛒᚦᚠ-ᛇᛝᛠ-ᚠᚾᛉ
 
@@ -1436,7 +1436,7 @@ Words: 16 // Chars: 71 // CRC: 3694
 
 Sentence: 179
 
-Words: 3 // Chars: 19 // CRC: 1109
+Words: 3 // Chars: 19 // CRC: 1109 (Prime)
 
 ᛗᛈᚣ-ᛚᛋᚩᚪᚫᚻᛚᛖᛇᛁᛗᛚ-ᛚᛋᚳᛈ
 
@@ -1460,7 +1460,7 @@ Words: 7 // Chars: 22 // CRC: 1282
 
 Sentence: 182
 
-Words: 33 // Chars: 181 // CRC: 9227
+Words: 33 // Chars: 181 // CRC: 9227 (Prime)
 
 ᚢᛡᚱᚠᛄᛇᚱᛡᚦᛖᚢᛏ-ᛝᚫ-ᚾᚪᛠᚩᚪᚾᚪᚦᚷᚩ-ᚫᛉᛒᛏᛖᛠᛗᚷᚱᛗ-ᚣᛝᚠᛒ-ᛞᛟᛞᚪ-ᛠᚱᚳᛁᛈᛞᚠᛗᛝᚻ-ᛋᚩ-ᛞᛈᛉᚾ-ᛟᚱᛡᚾᚳᚳᛏ-ᚾᛈᚠᛈᚳ-ᛄᚦᛒᛁᚹ-ᛞᚹᛝᛠᛡᚹᛚ-ᚹᛄᚾᚪᛟ-ᛏᛞᛉᚣᛖᚱᛞ-ᚱᛏᛇᛁᚳᛈ-ᛝ-ᚦᛟᚷᛄᚦ-ᚣᛋ-ᛠᚻ-ᚠᛒᛚ-ᛁᚫᛚᛞᛉᚪ-ᛁᚹᚷ-ᛒᚩᚹᚾᛠ-ᛋᛖᛗᛒᛋ-ᚳᚹᚦᛟᚠᚻᚫ-ᛞᚢᛁᛒᛞ-ᛇᛝᛈᚠᛁ-ᛟᚢᚣᛏ-ᚻᚱᛖᚾᚳᛈᛡᛈᛞᛄ-ᛁᛏᛗᛋᚫᛉᚩᚣ-ᚪᛄᛗᛡᛖ-ᛇᛄᚠᛗᚱ
 
@@ -1508,7 +1508,7 @@ Words: 11 // Chars: 36 // CRC: 1513
 
 Sentence: 188
 
-Words: 3 // Chars: 11 // CRC: 587
+Words: 3 // Chars: 11 // CRC: 587 (Prime)
 
 ᛒᛇᛇᚱ-ᚹᛄᛏᛡ-ᚳᚪᚫ
 
@@ -1532,7 +1532,7 @@ Words: 9 // Chars: 37 // CRC: 2114
 
 Sentence: 191
 
-Words: 5 // Chars: 25 // CRC: 1637
+Words: 5 // Chars: 25 // CRC: 1637 (Prime)
 
 ᛞᚪᛚᛈ-ᛋᛁ-ᚢᚣᚪᛚᛠᛝᚹ-ᚪᛏᛈᚳᚣ-ᛝᚫᚻᛗᛞᚷᛚ
 
@@ -1556,7 +1556,7 @@ Words: 3 // Chars: 16 // CRC: 866
 
 Sentence: 194
 
-Words: 9 // Chars: 43 // CRC: 2203
+Words: 9 // Chars: 43 // CRC: 2203 (Prime)
 
 ᛗᛖᚫᛞᛠᛁᛗ-ᛒᛟᚾᚳᚩᚱᛉ-ᛋᚹᚫ-ᚻᛖ-ᛋᚠᚾ-ᚢᚦᛟᚷᛖᚪᛟᛇᛇ-ᚦᚳᛒᛝᛏᛉᛡᛞ-ᛋᛡ-ᚩᚠ
 
@@ -1596,7 +1596,7 @@ Words: 13 // Chars: 61 // CRC: 2978
 
 Sentence: 199
 
-Words: 12 // Chars: 41 // CRC: 2029
+Words: 12 // Chars: 41 // CRC: 2029 (Prime)
 
 ᚠᛞᚾ-ᛄᛟ-ᚻᛚᛡ-ᛗᛖᚷ-ᛟᛁᛡ-ᚻᛟᚱᛇᚹᚣᚠ-ᛈ-ᛄᚷᚦ-ᚪᛒᛝ-ᛈᛒᚪᛖ-ᚢᚹᚻᚩᛒᛋᛉ-ᚹᛞ
 
@@ -1604,7 +1604,7 @@ Words: 12 // Chars: 41 // CRC: 2029
 
 Sentence: 200
 
-Words: 13 // Chars: 71 // CRC: 3571
+Words: 13 // Chars: 71 // CRC: 3571 (Prime)
 
 ᚦᛇᚱᛖ-ᛄᚾᛞᛝᚹᚪ-ᚻᛖᚹ-ᛟᛡᛄᛡᛟᛝᛄᛉᛚᛄ-ᛞᛉᛟᛈ-ᚱᚪᛁᛏᚷᛉᛝᛇ-ᛠᛗᚩᛚ-ᚦᚫᚹ-ᚫᚢᛈᛡᚳ-ᚹᛝᚻᚹᛒᛗᛋᛟᛖᛁᛡ-ᛟᚹᚦᚻᛒ-ᛡᚱᛏᚦᚠ-ᚠᚩᚦ
 
@@ -1620,7 +1620,7 @@ Words: 15 // Chars: 88 // CRC: 4578
 
 Sentence: 202
 
-Words: 2 // Chars: 10 // CRC: 379
+Words: 2 // Chars: 10 // CRC: 379 (Prime)
 
 ᛞᛇ-ᛉᚳᚠᛁᚪᚹᚻᚷ
 
@@ -1628,7 +1628,7 @@ Words: 2 // Chars: 10 // CRC: 379
 
 Sentence: 203
 
-Words: 21 // Chars: 81 // CRC: 4339
+Words: 21 // Chars: 81 // CRC: 4339 (Prime)
 
 ᛇᛟ-ᚠᛏᛖᛟᛠᚪᛡᛋᚷ-ᚣᛠᚾᚦᚫᚱ-ᚩᛡᛗ-ᚹᛉᛗ-ᚣᛞᛒᛏᚱ-ᚢᛄᚻ-ᚫᛟ-ᛡᛝᚹᚻᛋᚠᛡ-ᛚᚦᛏ-ᛁᚹᛏ-ᚩᚢᚾᚹᛗᛚ-ᛋᚦᛠᚹᛄ-ᚪᛄᚫᚷᚣᛗᚹᛞ-ᛈᛡ-ᛖᛄᚹ-ᛖᚢ-ᚻᚹ-ᛝᛁ-ᛋᚫᚷ-ᛄᛚ
 
@@ -1748,7 +1748,7 @@ Words: 6 // Chars: 29 // CRC: 1371
 
 Sentence: 218
 
-Words: 24 // Chars: 113 // CRC: 6101
+Words: 24 // Chars: 113 // CRC: 6101 (Prime)
 
 5-ᚻᚫᛉᚦᛒᛟ-ᛏᛟᚹᛄ-ᚫᛠᛗᚠᚫᚳᚷ-ᛇ-ᚻᚹᛗᚻᛝᚣ-ᛁᚩᛁ-ᛏᛁᛖᛡᛄ-ᛗᚣᛚ-ᚻᚱᚩᛞᛒᛡᛈᛠᛗ-ᚳᛠ-ᛖᛒᚢ-ᚷᛁᚦ-ᛟᚫ-ᛡᚻᛝᛖᚾ-ᚱᛠᛡᛋ-ᚻᛏᛝᚻᚪᚷᚩᛝᚫ-ᚹᛚᛏᚱ-ᚷᛁᚾ-ᛖᛠᛄᛡᛞᛋᚻ-ᛝᚾᚳᛋᚾᛞᛇᚾᛋᛁᚳᛡ-ᚱᛝᛚᚫᚣᛇᛚᚩ-ᚳᛞᚾ-ᛝᚷᛡ
 
@@ -1772,7 +1772,7 @@ Words: 28 // Chars: 134 // CRC: 7493
 
 Sentence: 221
 
-Words: 6 // Chars: 27 // CRC: 1061
+Words: 6 // Chars: 27 // CRC: 1061 (Prime)
 
 ᚾᚦᛇᛒᚳ-ᚷᛖᛇᛟᛚᛈ-ᚹᚾ-ᚻᚷᚱᛇᛏ-ᛈᚷᛒ-ᚹᛗᛋᚹᛟᚻ
 
@@ -1780,7 +1780,7 @@ Words: 6 // Chars: 27 // CRC: 1061
 
 Sentence: 222
 
-Words: 1 // Chars: 3 // CRC: 173
+Words: 1 // Chars: 3 // CRC: 173 (Prime)
 
 ᛡᚳᛋ
 
@@ -1820,7 +1820,7 @@ Words: 10 // Chars: 46 // CRC: 2295
 
 Sentence: 227
 
-Words: 4 // Chars: 21 // CRC: 1231
+Words: 4 // Chars: 21 // CRC: 1231 (Prime)
 
 ᛠᛈᛚ-ᛞᚩᛚᛁᛉᛠᛝᛖᚱ-ᚾᛈᛖᚹᛡ-ᚾᛄᛏᚣ
 
@@ -1916,7 +1916,7 @@ Words: 8 // Chars: 43 // CRC: 2190
 
 Sentence: 239
 
-Words: 9 // Chars: 52 // CRC: 3203
+Words: 9 // Chars: 52 // CRC: 3203 (Prime)
 
 ᚪᚾᛡᚪᛖᚫ-ᚳᛇᛁᛝ-ᛒᛡᛞᛠᚫᛒᛠᚳᛉᚠ-ᚫᛏᛁᚱᚪᛗᚩ-ᛚᛉᛋᚪ-ᛒᚩᛈᚫᚩᛝᚻᛇᛖᛇᚫ-ᚻᛖᛇᛠ-ᚱᛗᛞ-ᚫᛇᛗ
 
@@ -2012,7 +2012,7 @@ Words: 8 // Chars: 45 // CRC: 2355
 
 Sentence: 251
 
-Words: 5 // Chars: 17 // CRC: 719
+Words: 5 // Chars: 17 // CRC: 719 (Prime)
 
 ᚦᛞ-ᛁᚫᚩᚾ-ᛋᚷᛈᚪᛖᚩ-ᚣᚦᚹ-ᚾᚷ
 
@@ -2020,7 +2020,7 @@ Words: 5 // Chars: 17 // CRC: 719
 
 Sentence: 252
 
-Words: 21 // Chars: 87 // CRC: 4651
+Words: 21 // Chars: 87 // CRC: 4651 (Prime)
 
 ᛠᛋᚩᛇᛏ-ᛝᛚᚷᛞ-ᛒᛈᛈ-ᛗᛁᚪᛖ-ᛚᛏᛁ-ᚫᛄᛖ-ᛒᚾᚠᚪᛋᚷᛒᚠ-ᚫᚹᚣᚷᚢᛡᚠᛠ-ᛖᛋᛞ-ᛚᚳᛒᛞᛏᛈ-ᛖᚾᛈᚣ-ᚱᚠᚻ-ᚫᛝ-ᛟᚪᛗ-ᛒ-ᛡᛚ-ᛝᛋᚱᚢᚹᚱᚣᚻᚹ-ᚹᛡᛈ-ᛁᚻᚾᚻᚱ-ᚳᛖᛏᚫᚩᛋ-ᚣᛋ
 
@@ -2044,7 +2044,7 @@ Words: 3 // Chars: 10 // CRC: 480
 
 Sentence: 255
 
-Words: 7 // Chars: 24 // CRC: 1153
+Words: 7 // Chars: 24 // CRC: 1153 (Prime)
 
 ᚠᚪ-ᛈᛞᚱᛒ-ᛝᛁᛋ-ᚷ-ᚠᚾᛈᚠᛒ-ᛟᚦᛁᛠᚪ-ᛡᛏᚾᚳ
 
@@ -2188,7 +2188,7 @@ Words: 12 // Chars: 40 // CRC: 1872
 
 Sentence: 273
 
-Words: 1 // Chars: 7 // CRC: 449
+Words: 1 // Chars: 7 // CRC: 449 (Prime)
 
 ᛈᚪᚱᚪᛒᛚᛖ
 
@@ -2196,7 +2196,7 @@ Words: 1 // Chars: 7 // CRC: 449
 
 Sentence: 274
 
-Words: 7 // Chars: 30 // CRC: 1259
+Words: 7 // Chars: 30 // CRC: 1259 (Prime)
 
 ᛚᛁᚳᛖ-ᚦᛖ-ᛁᚾᛋᛏᚪᚱ-ᛏᚢᚾᚾᛖᛚᛝ-ᛏᚩ-ᚦᛖ-ᛋᚢᚱᚠᚪᚳᛖ
 
@@ -2204,7 +2204,7 @@ Words: 7 // Chars: 30 // CRC: 1259
 
 Sentence: 275
 
-Words: 6 // Chars: 30 // CRC: 1031
+Words: 6 // Chars: 30 // CRC: 1031 (Prime)
 
 ᚹᛖ-ᛗᚢᛋᛏ-ᛋᚻᛖᛞ-ᚩᚢᚱ-ᚩᚹᚾ-ᚳᛁᚱᚳᚢᛗᚠᛖᚱᛖᚾᚳᛖᛋ
 
@@ -2212,6 +2212,6 @@ Words: 6 // Chars: 30 // CRC: 1031
 
 Sentence: 276
 
-Words: 6 // Chars: 28 // CRC: 1229
+Words: 6 // Chars: 28 // CRC: 1229 (Prime)
 
 ᚠᛁᚾᛞ-ᚦᛖ-ᛞᛁᚢᛁᚾᛁᛏᚣ-ᚹᛁᚦᛁᚾ-ᚪᚾᛞ-ᛖᛗᛖᚱᚷᛖ
