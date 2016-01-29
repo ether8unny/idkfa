@@ -444,7 +444,7 @@ Words: 14 // Chars: 64 // CRC: 2559
 
 Sentence: 55
 
-Words: 11 // Chars: 35 // CRC: 1108
+Words: 11 // Chars: 35 // CRC: 1106
 
 1-ᚹᛖ-ᛞᚩ-ᚾᚩᛏ-ᚻᚪᚢᛖ-ᛖᚾᚩᚢᚷᚻ-ᚩᚱ-ᚦᛖᚱᛖ-ᛁᛋ-ᚾᚩᛏ-ᛖᚾᚩᚢᚷᚻ
 
@@ -452,7 +452,7 @@ Words: 11 // Chars: 35 // CRC: 1108
 
 Sentence: 56
 
-Words: 9 // Chars: 26 // CRC: 1073
+Words: 9 // Chars: 26 // CRC: 1071
 
 2-ᚹᛖ-ᚻᚪᚢᛖ-ᚹᚻᚪᛏ-ᚹᛖ-ᚻᚪᚢᛖ-ᚾᚩᚹ-ᛒᚣ-ᛚᚢᚳᚳ
 
@@ -956,13 +956,21 @@ Words: 6 // Chars: 32 // CRC: 1710
 
 Sentence: 119
 
-Words: 5 // Chars: 14 // CRC: 766
+Words: 2 // Chars: 6 // CRC: 344
 
-ᛞᚩ-ᛟᛏᚦᚫ-ᚳᚹᛄ-ᛉᛠ-ᚷᛠᛗ
+ᛞᚩ-ᛟᛏᚦᚫ
 
 
 
 Sentence: 120
+
+Words: 3 // Chars: 8 // CRC: 422
+
+ᚳᚹᛄ-ᛉᛠ-ᚷᛠᛗ
+
+
+
+Sentence: 121
 
 Words: 2 // Chars: 12 // CRC: 446
 
@@ -970,7 +978,7 @@ Words: 2 // Chars: 12 // CRC: 446
 
 
 
-Sentence: 121
+Sentence: 122
 
 Words: 7 // Chars: 28 // CRC: 1465
 
@@ -978,7 +986,7 @@ Words: 7 // Chars: 28 // CRC: 1465
 
 
 
-Sentence: 122
+Sentence: 123
 
 Words: 21 // Chars: 94 // CRC: 5080
 
@@ -986,7 +994,7 @@ Words: 21 // Chars: 94 // CRC: 5080
 
 
 
-Sentence: 123
+Sentence: 124
 
 Words: 14 // Chars: 86 // CRC: 3966
 
@@ -994,7 +1002,7 @@ Words: 14 // Chars: 86 // CRC: 3966
 
 
 
-Sentence: 124
+Sentence: 125
 
 Words: 10 // Chars: 54 // CRC: 2989
 
@@ -1002,7 +1010,7 @@ Words: 10 // Chars: 54 // CRC: 2989
 
 
 
-Sentence: 125
+Sentence: 126
 
 Words: 40 // Chars: 178 // CRC: 9488
 
@@ -1010,7 +1018,7 @@ Words: 40 // Chars: 178 // CRC: 9488
 
 
 
-Sentence: 126
+Sentence: 127
 
 Words: 24 // Chars: 111 // CRC: 5786
 
@@ -1018,7 +1026,7 @@ Words: 24 // Chars: 111 // CRC: 5786
 
 
 
-Sentence: 127
+Sentence: 128
 
 Words: 17 // Chars: 66 // CRC: 3256
 
@@ -1026,15 +1034,15 @@ Words: 17 // Chars: 66 // CRC: 3256
 
 
 
-Sentence: 128
+Sentence: 129
 
-Words: 18 // Chars: 69 // CRC: 3348
+Words: 18 // Chars: 69 // CRC: 3346
 
 ᛠᛏᛞ-ᛚᛖᛋᛄ-ᚳᛟ-ᚷᛞᛡ-ᚢᚹᛝᚻᚫᚢᛈ-ᛏᛈᚩᚣ-ᚾᛇᚦᛟᛏᛇᚳᚠ-ᛒᚪᚾ-ᛗᚦᛝ-ᛟᛠᚢᛁᚪ-ᚾᚻᛝᛉᚩ-ᛇᛁᛡᚠᛟᛒᚦᚠ-ᛋᛒ-ᚠᛞᛇ-ᚩᚦᛏ-7-ᚷ-ᛚᛄᛖᚫ
 
 
 
-Sentence: 129
+Sentence: 130
 
 Words: 2 // Chars: 7 // CRC: 437
 
@@ -1042,7 +1050,7 @@ Words: 2 // Chars: 7 // CRC: 437
 
 
 
-Sentence: 130
+Sentence: 131
 
 Words: 19 // Chars: 88 // CRC: 4659
 
@@ -1050,7 +1058,7 @@ Words: 19 // Chars: 88 // CRC: 4659
 
 
 
-Sentence: 131
+Sentence: 132
 
 Words: 5 // Chars: 24 // CRC: 938
 
@@ -1058,7 +1066,7 @@ Words: 5 // Chars: 24 // CRC: 938
 
 
 
-Sentence: 132
+Sentence: 133
 
 Words: 23 // Chars: 103 // CRC: 4886
 
@@ -1066,7 +1074,7 @@ Words: 23 // Chars: 103 // CRC: 4886
 
 
 
-Sentence: 133
+Sentence: 134
 
 Words: 7 // Chars: 31 // CRC: 1595
 
@@ -1074,7 +1082,7 @@ Words: 7 // Chars: 31 // CRC: 1595
 
 
 
-Sentence: 134
+Sentence: 135
 
 Words: 2 // Chars: 9 // CRC: 340
 
@@ -1082,7 +1090,7 @@ Words: 2 // Chars: 9 // CRC: 340
 
 
 
-Sentence: 135
+Sentence: 136
 
 Words: 12 // Chars: 77 // CRC: 3933
 
@@ -1090,7 +1098,7 @@ Words: 12 // Chars: 77 // CRC: 3933
 
 
 
-Sentence: 136
+Sentence: 137
 
 Words: 8 // Chars: 35 // CRC: 1359
 
@@ -1098,7 +1106,7 @@ Words: 8 // Chars: 35 // CRC: 1359
 
 
 
-Sentence: 137
+Sentence: 138
 
 Words: 12 // Chars: 58 // CRC: 2785
 
@@ -1106,7 +1114,7 @@ Words: 12 // Chars: 58 // CRC: 2785
 
 
 
-Sentence: 138
+Sentence: 139
 
 Words: 5 // Chars: 14 // CRC: 701
 
@@ -1114,7 +1122,7 @@ Words: 5 // Chars: 14 // CRC: 701
 
 
 
-Sentence: 139
+Sentence: 140
 
 Words: 5 // Chars: 21 // CRC: 1327
 
@@ -1122,7 +1130,7 @@ Words: 5 // Chars: 21 // CRC: 1327
 
 
 
-Sentence: 140
+Sentence: 141
 
 Words: 30 // Chars: 106 // CRC: 5309
 
@@ -1130,7 +1138,7 @@ Words: 30 // Chars: 106 // CRC: 5309
 
 
 
-Sentence: 141
+Sentence: 142
 
 Words: 7 // Chars: 43 // CRC: 2108
 
@@ -1138,7 +1146,7 @@ Words: 7 // Chars: 43 // CRC: 2108
 
 
 
-Sentence: 142
+Sentence: 143
 
 Words: 5 // Chars: 24 // CRC: 1039
 
@@ -1146,7 +1154,7 @@ Words: 5 // Chars: 24 // CRC: 1039
 
 
 
-Sentence: 143
+Sentence: 144
 
 Words: 6 // Chars: 21 // CRC: 1033
 
@@ -1154,7 +1162,7 @@ Words: 6 // Chars: 21 // CRC: 1033
 
 
 
-Sentence: 144
+Sentence: 145
 
 Words: 58 // Chars: 255 // CRC: 13569
 
@@ -1162,7 +1170,7 @@ Words: 58 // Chars: 255 // CRC: 13569
 
 
 
-Sentence: 145
+Sentence: 146
 
 Words: 2 // Chars: 7 // CRC: 389
 
@@ -1170,7 +1178,7 @@ Words: 2 // Chars: 7 // CRC: 389
 
 
 
-Sentence: 146
+Sentence: 147
 
 Words: 14 // Chars: 64 // CRC: 3562
 
@@ -1178,7 +1186,7 @@ Words: 14 // Chars: 64 // CRC: 3562
 
 
 
-Sentence: 147
+Sentence: 148
 
 Words: 9 // Chars: 45 // CRC: 2520
 
@@ -1186,7 +1194,7 @@ Words: 9 // Chars: 45 // CRC: 2520
 
 
 
-Sentence: 148
+Sentence: 149
 
 Words: 2 // Chars: 9 // CRC: 638
 
@@ -1194,7 +1202,7 @@ Words: 2 // Chars: 9 // CRC: 638
 
 
 
-Sentence: 149
+Sentence: 150
 
 Words: 3 // Chars: 11 // CRC: 430
 
@@ -1202,7 +1210,7 @@ Words: 3 // Chars: 11 // CRC: 430
 
 
 
-Sentence: 150
+Sentence: 151
 
 Words: 52 // Chars: 226 // CRC: 11689
 
@@ -1210,7 +1218,7 @@ Words: 52 // Chars: 226 // CRC: 11689
 
 
 
-Sentence: 151
+Sentence: 152
 
 Words: 11 // Chars: 35 // CRC: 1827
 
@@ -1218,7 +1226,7 @@ Words: 11 // Chars: 35 // CRC: 1827
 
 
 
-Sentence: 152
+Sentence: 153
 
 Words: 24 // Chars: 123 // CRC: 6230
 
@@ -1226,7 +1234,7 @@ Words: 24 // Chars: 123 // CRC: 6230
 
 
 
-Sentence: 153
+Sentence: 154
 
 Words: 21 // Chars: 86 // CRC: 4593
 
@@ -1234,7 +1242,7 @@ Words: 21 // Chars: 86 // CRC: 4593
 
 
 
-Sentence: 154
+Sentence: 155
 
 Words: 10 // Chars: 41 // CRC: 1882
 
@@ -1242,7 +1250,7 @@ Words: 10 // Chars: 41 // CRC: 1882
 
 
 
-Sentence: 155
+Sentence: 156
 
 Words: 4 // Chars: 14 // CRC: 870
 
@@ -1250,7 +1258,7 @@ Words: 4 // Chars: 14 // CRC: 870
 
 
 
-Sentence: 156
+Sentence: 157
 
 Words: 13 // Chars: 48 // CRC: 2320
 
@@ -1258,7 +1266,7 @@ Words: 13 // Chars: 48 // CRC: 2320
 
 
 
-Sentence: 157
+Sentence: 158
 
 Words: 12 // Chars: 50 // CRC: 2409
 
@@ -1266,7 +1274,7 @@ Words: 12 // Chars: 50 // CRC: 2409
 
 
 
-Sentence: 158
+Sentence: 159
 
 Words: 31 // Chars: 127 // CRC: 6222
 
@@ -1274,7 +1282,7 @@ Words: 31 // Chars: 127 // CRC: 6222
 
 
 
-Sentence: 159
+Sentence: 160
 
 Words: 26 // Chars: 115 // CRC: 6213
 
@@ -1282,7 +1290,7 @@ Words: 26 // Chars: 115 // CRC: 6213
 
 
 
-Sentence: 160
+Sentence: 161
 
 Words: 26 // Chars: 121 // CRC: 6138
 
@@ -1290,7 +1298,7 @@ Words: 26 // Chars: 121 // CRC: 6138
 
 
 
-Sentence: 161
+Sentence: 162
 
 Words: 23 // Chars: 105 // CRC: 5367
 
@@ -1298,7 +1306,7 @@ Words: 23 // Chars: 105 // CRC: 5367
 
 
 
-Sentence: 162
+Sentence: 163
 
 Words: 18 // Chars: 69 // CRC: 3927
 
@@ -1306,7 +1314,7 @@ Words: 18 // Chars: 69 // CRC: 3927
 
 
 
-Sentence: 163
+Sentence: 164
 
 Words: 48 // Chars: 184 // CRC: 9979
 
@@ -1314,7 +1322,7 @@ Words: 48 // Chars: 184 // CRC: 9979
 
 
 
-Sentence: 164
+Sentence: 165
 
 Words: 81 // Chars: 375 // CRC: 19125
 
@@ -1322,7 +1330,7 @@ Words: 81 // Chars: 375 // CRC: 19125
 
 
 
-Sentence: 165
+Sentence: 166
 
 Words: 14 // Chars: 68 // CRC: 2885
 
@@ -1330,7 +1338,7 @@ Words: 14 // Chars: 68 // CRC: 2885
 
 
 
-Sentence: 166
+Sentence: 167
 
 Words: 11 // Chars: 68 // CRC: 3574
 
@@ -1338,7 +1346,7 @@ Words: 11 // Chars: 68 // CRC: 3574
 
 
 
-Sentence: 167
+Sentence: 168
 
 Words: 3 // Chars: 14 // CRC: 718
 
@@ -1346,7 +1354,7 @@ Words: 3 // Chars: 14 // CRC: 718
 
 
 
-Sentence: 168
+Sentence: 169
 
 Words: 4 // Chars: 14 // CRC: 571
 
@@ -1354,7 +1362,7 @@ Words: 4 // Chars: 14 // CRC: 571
 
 
 
-Sentence: 169
+Sentence: 170
 
 Words: 4 // Chars: 16 // CRC: 786
 
@@ -1362,7 +1370,7 @@ Words: 4 // Chars: 16 // CRC: 786
 
 
 
-Sentence: 170
+Sentence: 171
 
 Words: 69 // Chars: 320 // CRC: 15964
 
@@ -1370,7 +1378,7 @@ Words: 69 // Chars: 320 // CRC: 15964
 
 
 
-Sentence: 171
+Sentence: 172
 
 Words: 9 // Chars: 28 // CRC: 1496
 
@@ -1378,7 +1386,7 @@ Words: 9 // Chars: 28 // CRC: 1496
 
 
 
-Sentence: 172
+Sentence: 173
 
 Words: 9 // Chars: 37 // CRC: 2062
 
@@ -1386,7 +1394,7 @@ Words: 9 // Chars: 37 // CRC: 2062
 
 
 
-Sentence: 173
+Sentence: 174
 
 Words: 28 // Chars: 121 // CRC: 6145
 
@@ -1394,7 +1402,7 @@ Words: 28 // Chars: 121 // CRC: 6145
 
 
 
-Sentence: 174
+Sentence: 175
 
 Words: 29 // Chars: 155 // CRC: 7790
 
@@ -1402,7 +1410,7 @@ Words: 29 // Chars: 155 // CRC: 7790
 
 
 
-Sentence: 175
+Sentence: 176
 
 Words: 34 // Chars: 156 // CRC: 8152
 
@@ -1410,7 +1418,7 @@ Words: 34 // Chars: 156 // CRC: 8152
 
 
 
-Sentence: 176
+Sentence: 177
 
 Words: 26 // Chars: 117 // CRC: 5935
 
@@ -1418,7 +1426,7 @@ Words: 26 // Chars: 117 // CRC: 5935
 
 
 
-Sentence: 177
+Sentence: 178
 
 Words: 16 // Chars: 71 // CRC: 3694
 
@@ -1426,7 +1434,7 @@ Words: 16 // Chars: 71 // CRC: 3694
 
 
 
-Sentence: 178
+Sentence: 179
 
 Words: 3 // Chars: 19 // CRC: 1109
 
@@ -1434,7 +1442,7 @@ Words: 3 // Chars: 19 // CRC: 1109
 
 
 
-Sentence: 179
+Sentence: 180
 
 Words: 31 // Chars: 125 // CRC: 6230
 
@@ -1442,7 +1450,7 @@ Words: 31 // Chars: 125 // CRC: 6230
 
 
 
-Sentence: 180
+Sentence: 181
 
 Words: 7 // Chars: 22 // CRC: 1282
 
@@ -1450,7 +1458,7 @@ Words: 7 // Chars: 22 // CRC: 1282
 
 
 
-Sentence: 181
+Sentence: 182
 
 Words: 33 // Chars: 181 // CRC: 9227
 
@@ -1458,7 +1466,7 @@ Words: 33 // Chars: 181 // CRC: 9227
 
 
 
-Sentence: 182
+Sentence: 183
 
 Words: 24 // Chars: 116 // CRC: 5936
 
@@ -1466,7 +1474,7 @@ Words: 24 // Chars: 116 // CRC: 5936
 
 
 
-Sentence: 183
+Sentence: 184
 
 Words: 4 // Chars: 7 // CRC: 375
 
@@ -1474,7 +1482,7 @@ Words: 4 // Chars: 7 // CRC: 375
 
 
 
-Sentence: 184
+Sentence: 185
 
 Words: 23 // Chars: 91 // CRC: 5444
 
@@ -1482,7 +1490,7 @@ Words: 23 // Chars: 91 // CRC: 5444
 
 
 
-Sentence: 185
+Sentence: 186
 
 Words: 4 // Chars: 18 // CRC: 874
 
@@ -1490,7 +1498,7 @@ Words: 4 // Chars: 18 // CRC: 874
 
 
 
-Sentence: 186
+Sentence: 187
 
 Words: 11 // Chars: 36 // CRC: 1513
 
@@ -1498,7 +1506,7 @@ Words: 11 // Chars: 36 // CRC: 1513
 
 
 
-Sentence: 187
+Sentence: 188
 
 Words: 3 // Chars: 11 // CRC: 587
 
@@ -1506,7 +1514,7 @@ Words: 3 // Chars: 11 // CRC: 587
 
 
 
-Sentence: 188
+Sentence: 189
 
 Words: 70 // Chars: 294 // CRC: 14908
 
@@ -1514,7 +1522,7 @@ Words: 70 // Chars: 294 // CRC: 14908
 
 
 
-Sentence: 189
+Sentence: 190
 
 Words: 9 // Chars: 37 // CRC: 2114
 
@@ -1522,7 +1530,7 @@ Words: 9 // Chars: 37 // CRC: 2114
 
 
 
-Sentence: 190
+Sentence: 191
 
 Words: 5 // Chars: 25 // CRC: 1637
 
@@ -1530,7 +1538,7 @@ Words: 5 // Chars: 25 // CRC: 1637
 
 
 
-Sentence: 191
+Sentence: 192
 
 Words: 5 // Chars: 14 // CRC: 1030
 
@@ -1538,7 +1546,7 @@ Words: 5 // Chars: 14 // CRC: 1030
 
 
 
-Sentence: 192
+Sentence: 193
 
 Words: 3 // Chars: 16 // CRC: 866
 
@@ -1546,7 +1554,7 @@ Words: 3 // Chars: 16 // CRC: 866
 
 
 
-Sentence: 193
+Sentence: 194
 
 Words: 9 // Chars: 43 // CRC: 2203
 
@@ -1554,7 +1562,7 @@ Words: 9 // Chars: 43 // CRC: 2203
 
 
 
-Sentence: 194
+Sentence: 195
 
 Words: 6 // Chars: 26 // CRC: 1190
 
@@ -1562,7 +1570,7 @@ Words: 6 // Chars: 26 // CRC: 1190
 
 
 
-Sentence: 195
+Sentence: 196
 
 Words: 20 // Chars: 83 // CRC: 4432
 
@@ -1570,7 +1578,7 @@ Words: 20 // Chars: 83 // CRC: 4432
 
 
 
-Sentence: 196
+Sentence: 197
 
 Words: 3 // Chars: 8 // CRC: 318
 
@@ -1578,7 +1586,7 @@ Words: 3 // Chars: 8 // CRC: 318
 
 
 
-Sentence: 197
+Sentence: 198
 
 Words: 13 // Chars: 61 // CRC: 2978
 
@@ -1586,7 +1594,7 @@ Words: 13 // Chars: 61 // CRC: 2978
 
 
 
-Sentence: 198
+Sentence: 199
 
 Words: 12 // Chars: 41 // CRC: 2029
 
@@ -1594,7 +1602,7 @@ Words: 12 // Chars: 41 // CRC: 2029
 
 
 
-Sentence: 199
+Sentence: 200
 
 Words: 13 // Chars: 71 // CRC: 3571
 
@@ -1602,7 +1610,7 @@ Words: 13 // Chars: 71 // CRC: 3571
 
 
 
-Sentence: 200
+Sentence: 201
 
 Words: 15 // Chars: 88 // CRC: 4578
 
@@ -1610,7 +1618,7 @@ Words: 15 // Chars: 88 // CRC: 4578
 
 
 
-Sentence: 201
+Sentence: 202
 
 Words: 2 // Chars: 10 // CRC: 379
 
@@ -1618,7 +1626,7 @@ Words: 2 // Chars: 10 // CRC: 379
 
 
 
-Sentence: 202
+Sentence: 203
 
 Words: 21 // Chars: 81 // CRC: 4339
 
@@ -1626,7 +1634,7 @@ Words: 21 // Chars: 81 // CRC: 4339
 
 
 
-Sentence: 203
+Sentence: 204
 
 Words: 2 // Chars: 8 // CRC: 295
 
@@ -1634,7 +1642,7 @@ Words: 2 // Chars: 8 // CRC: 295
 
 
 
-Sentence: 204
+Sentence: 205
 
 Words: 31 // Chars: 125 // CRC: 6264
 
@@ -1642,7 +1650,7 @@ Words: 31 // Chars: 125 // CRC: 6264
 
 
 
-Sentence: 205
+Sentence: 206
 
 Words: 2 // Chars: 6 // CRC: 340
 
@@ -1650,7 +1658,7 @@ Words: 2 // Chars: 6 // CRC: 340
 
 
 
-Sentence: 206
+Sentence: 207
 
 Words: 31 // Chars: 138 // CRC: 6648
 
@@ -1658,7 +1666,7 @@ Words: 31 // Chars: 138 // CRC: 6648
 
 
 
-Sentence: 207
+Sentence: 208
 
 Words: 13 // Chars: 57 // CRC: 2881
 
@@ -1666,7 +1674,7 @@ Words: 13 // Chars: 57 // CRC: 2881
 
 
 
-Sentence: 208
+Sentence: 209
 
 Words: 7 // Chars: 38 // CRC: 2121
 
@@ -1674,7 +1682,7 @@ Words: 7 // Chars: 38 // CRC: 2121
 
 
 
-Sentence: 209
+Sentence: 210
 
 Words: 14 // Chars: 54 // CRC: 2756
 
@@ -1682,7 +1690,7 @@ Words: 14 // Chars: 54 // CRC: 2756
 
 
 
-Sentence: 210
+Sentence: 211
 
 Words: 6 // Chars: 36 // CRC: 2490
 
@@ -1690,7 +1698,7 @@ Words: 6 // Chars: 36 // CRC: 2490
 
 
 
-Sentence: 211
+Sentence: 212
 
 Words: 64 // Chars: 292 // CRC: 15049
 
@@ -1698,39 +1706,39 @@ Words: 64 // Chars: 292 // CRC: 15049
 
 
 
-Sentence: 212
+Sentence: 213
 
-Words: 31 // Chars: 140 // CRC: 7113
+Words: 31 // Chars: 140 // CRC: 7111
 
 1-ᛚᚦᛇᛟ-ᚪᚫᛠ-ᛗᛉᚻᚳᛉᚪᛏᚦ-ᚫᛉ-ᚩᛋᚳᛞᛏ-ᚣᚹᚾ-ᛟᛏᛉ-ᚹᛁᛟᛄᚠᛁᚩ-ᛁᚱᛋ-ᛉᚾᛗᚪᛡ-ᚱᛈᛋᛞ-ᛁᛟ-ᚻᛖᛏᚢᚹ-ᛠᛟᛞᛟᛄᛁᛝᛡ-ᛄᚱᛞᛗᛒ-ᚩᚳᚩ-ᚦᛟᚱᚢᛚ-ᚢᚦᛋᚢᛞᛚ-ᚷᛁᚣᛝᚩᛟ-ᛁᛖᚣ-ᛖᚠ-ᛇᛝᛒᛚᛁᚢᚣᚠᛟᚾᛟ-ᛒᛟᚷᛄᚪᚾᛗᚫ-ᚣᚦᚠ-ᛁᛒᛝᛈᚾᛁᚱᚷ-ᛄᛇᚫ-ᚻᚪ-ᚱᛉᛉ-ᚩᛚᚾᚫ-ᛞᚣᛒᚾᚪ
 
 
 
-Sentence: 213
+Sentence: 214
 
-Words: 21 // Chars: 92 // CRC: 4413
+Words: 21 // Chars: 92 // CRC: 4411
 
 2-ᚾᚣᛖᛉ-ᚾᚢᛉᛁ-ᛝᛏᛈᚹᛋᚣ-ᛏᛠᛈᛉ-ᚪᛁᛄᛋᚱᚪᛏᛋᛝᛏ-ᚳᚷᚳᚻ-ᛖᛟᚱᚪᛡᚻᚳ-ᛝᛒᛖᚱᛠᚪ-ᛚᛟᛖᛚᚪ-ᚦᛋ-ᚳᚹᚱᚹ-ᚩᚻᚣ-ᚢᛝᚩ-ᛈᛚᛁᛏᚪ-ᚠᛋᛝᛞ-ᚳᚪᚱᛒ-ᚹᛈ-ᚾᚩᚦᚳᚦᚾᛗᚩᛖ-ᚣᛇᚾ-ᚠᛒ
 
 
 
-Sentence: 214
+Sentence: 215
 
-Words: 26 // Chars: 99 // CRC: 5272
+Words: 26 // Chars: 99 // CRC: 5270
 
 3-ᛞᚢᛈ-ᚹᚾᛖᚪ-ᚱᛚᛁᚹ-ᚫᛉ-ᛝᚠᛞᚪᚠ-ᛒᛄᛉ-ᛞᛄᛝᚣᛇᚪ-ᚫᛄ-ᛝᛈᚪ-ᚢᛠ-ᛇᛏᚱ-ᛖ-ᚫᛗ-ᚫᛠᚻ-ᛁᚫᛟ-ᛠᚹᚳᛄᚦᚻ-ᛡᚩᚢ-ᚩᚦᚷᛡ-ᚻᛋᚷᚪᛁᛟᛞᚪᛄ-ᛁᚹᛡᛒ-ᛗᛝᛡᛞᚠᛒᛋᛏ-ᛒᚷᚠ-ᚷᛟᚢᚳᚫᛏᛁᛖ-ᚱᚷᛗᚣ-ᚪᚷᚹ
 
 
 
-Sentence: 215
+Sentence: 216
 
-Words: 14 // Chars: 68 // CRC: 3654
+Words: 14 // Chars: 68 // CRC: 3652
 
 4-ᛝᛄᛋᛄᛗᚱᛗ-ᚾᛒᛋᛗᛉᛞᚻᛉᛁ-ᚣᛡᚻᚣᛠᛉᚻ-ᛞᛖ-ᚹᛖᚦ-ᚢᚳ-ᛉᛗᚪᚣᛠ-ᚹᚫᚪᚳ-ᚢᚫᚳᛇᚳᚣ-ᛡᚫᛏᛖᚳᚠ-ᛋᚻ-ᛋᚱᚢᚦ-ᛁᛋᛝᛗᛞᚫᚢᛠᚢᚪ
 
 
 
-Sentence: 216
+Sentence: 217
 
 Words: 6 // Chars: 29 // CRC: 1371
 
@@ -1738,15 +1746,15 @@ Words: 6 // Chars: 29 // CRC: 1371
 
 
 
-Sentence: 217
+Sentence: 218
 
-Words: 24 // Chars: 113 // CRC: 6103
+Words: 24 // Chars: 113 // CRC: 6101
 
 5-ᚻᚫᛉᚦᛒᛟ-ᛏᛟᚹᛄ-ᚫᛠᛗᚠᚫᚳᚷ-ᛇ-ᚻᚹᛗᚻᛝᚣ-ᛁᚩᛁ-ᛏᛁᛖᛡᛄ-ᛗᚣᛚ-ᚻᚱᚩᛞᛒᛡᛈᛠᛗ-ᚳᛠ-ᛖᛒᚢ-ᚷᛁᚦ-ᛟᚫ-ᛡᚻᛝᛖᚾ-ᚱᛠᛡᛋ-ᚻᛏᛝᚻᚪᚷᚩᛝᚫ-ᚹᛚᛏᚱ-ᚷᛁᚾ-ᛖᛠᛄᛡᛞᛋᚻ-ᛝᚾᚳᛋᚾᛞᛇᚾᛋᛁᚳᛡ-ᚱᛝᛚᚫᚣᛇᛚᚩ-ᚳᛞᚾ-ᛝᚷᛡ
 
 
 
-Sentence: 218
+Sentence: 219
 
 Words: 5 // Chars: 17 // CRC: 865
 
@@ -1754,7 +1762,7 @@ Words: 5 // Chars: 17 // CRC: 865
 
 
 
-Sentence: 219
+Sentence: 220
 
 Words: 28 // Chars: 134 // CRC: 7493
 
@@ -1762,7 +1770,7 @@ Words: 28 // Chars: 134 // CRC: 7493
 
 
 
-Sentence: 220
+Sentence: 221
 
 Words: 6 // Chars: 27 // CRC: 1061
 
@@ -1770,7 +1778,7 @@ Words: 6 // Chars: 27 // CRC: 1061
 
 
 
-Sentence: 221
+Sentence: 222
 
 Words: 1 // Chars: 3 // CRC: 173
 
@@ -1778,7 +1786,7 @@ Words: 1 // Chars: 3 // CRC: 173
 
 
 
-Sentence: 222
+Sentence: 223
 
 Words: 28 // Chars: 118 // CRC: 5826
 
@@ -1786,7 +1794,7 @@ Words: 28 // Chars: 118 // CRC: 5826
 
 
 
-Sentence: 223
+Sentence: 224
 
 Words: 2 // Chars: 8 // CRC: 435
 
@@ -1794,7 +1802,7 @@ Words: 2 // Chars: 8 // CRC: 435
 
 
 
-Sentence: 224
+Sentence: 225
 
 Words: 5 // Chars: 21 // CRC: 1202
 
@@ -1802,7 +1810,7 @@ Words: 5 // Chars: 21 // CRC: 1202
 
 
 
-Sentence: 225
+Sentence: 226
 
 Words: 10 // Chars: 46 // CRC: 2295
 
@@ -1810,7 +1818,7 @@ Words: 10 // Chars: 46 // CRC: 2295
 
 
 
-Sentence: 226
+Sentence: 227
 
 Words: 4 // Chars: 21 // CRC: 1231
 
@@ -1818,7 +1826,7 @@ Words: 4 // Chars: 21 // CRC: 1231
 
 
 
-Sentence: 227
+Sentence: 228
 
 Words: 17 // Chars: 69 // CRC: 3562
 
@@ -1826,7 +1834,7 @@ Words: 17 // Chars: 69 // CRC: 3562
 
 
 
-Sentence: 228
+Sentence: 229
 
 Words: 16 // Chars: 64 // CRC: 2982
 
@@ -1834,7 +1842,7 @@ Words: 16 // Chars: 64 // CRC: 2982
 
 
 
-Sentence: 229
+Sentence: 230
 
 Words: 3 // Chars: 15 // CRC: 1135
 
@@ -1842,7 +1850,7 @@ Words: 3 // Chars: 15 // CRC: 1135
 
 
 
-Sentence: 230
+Sentence: 231
 
 Words: 17 // Chars: 71 // CRC: 3573
 
@@ -1850,7 +1858,7 @@ Words: 17 // Chars: 71 // CRC: 3573
 
 
 
-Sentence: 231
+Sentence: 232
 
 Words: 26 // Chars: 114 // CRC: 5829
 
@@ -1858,7 +1866,7 @@ Words: 26 // Chars: 114 // CRC: 5829
 
 
 
-Sentence: 232
+Sentence: 233
 
 Words: 30 // Chars: 142 // CRC: 6929
 
@@ -1866,7 +1874,7 @@ Words: 30 // Chars: 142 // CRC: 6929
 
 
 
-Sentence: 233
+Sentence: 234
 
 Words: 13 // Chars: 68 // CRC: 3335
 
@@ -1874,7 +1882,7 @@ Words: 13 // Chars: 68 // CRC: 3335
 
 
 
-Sentence: 234
+Sentence: 235
 
 Words: 8 // Chars: 41 // CRC: 1885
 
@@ -1882,7 +1890,7 @@ Words: 8 // Chars: 41 // CRC: 1885
 
 
 
-Sentence: 235
+Sentence: 236
 
 Words: 28 // Chars: 129 // CRC: 6576
 
@@ -1890,7 +1898,7 @@ Words: 28 // Chars: 129 // CRC: 6576
 
 
 
-Sentence: 236
+Sentence: 237
 
 Words: 4 // Chars: 24 // CRC: 869
 
@@ -1898,7 +1906,7 @@ Words: 4 // Chars: 24 // CRC: 869
 
 
 
-Sentence: 237
+Sentence: 238
 
 Words: 8 // Chars: 43 // CRC: 2190
 
@@ -1906,7 +1914,7 @@ Words: 8 // Chars: 43 // CRC: 2190
 
 
 
-Sentence: 238
+Sentence: 239
 
 Words: 9 // Chars: 52 // CRC: 3203
 
@@ -1914,7 +1922,7 @@ Words: 9 // Chars: 52 // CRC: 3203
 
 
 
-Sentence: 239
+Sentence: 240
 
 Words: 9 // Chars: 31 // CRC: 1577
 
@@ -1922,7 +1930,7 @@ Words: 9 // Chars: 31 // CRC: 1577
 
 
 
-Sentence: 240
+Sentence: 241
 
 Words: 31 // Chars: 142 // CRC: 7472
 
@@ -1930,7 +1938,7 @@ Words: 31 // Chars: 142 // CRC: 7472
 
 
 
-Sentence: 241
+Sentence: 242
 
 Words: 28 // Chars: 128 // CRC: 7265
 
@@ -1938,7 +1946,7 @@ Words: 28 // Chars: 128 // CRC: 7265
 
 
 
-Sentence: 242
+Sentence: 243
 
 Words: 23 // Chars: 104 // CRC: 5472
 
@@ -1946,7 +1954,7 @@ Words: 23 // Chars: 104 // CRC: 5472
 
 
 
-Sentence: 243
+Sentence: 244
 
 Words: 20 // Chars: 90 // CRC: 4458
 
@@ -1954,7 +1962,7 @@ Words: 20 // Chars: 90 // CRC: 4458
 
 
 
-Sentence: 244
+Sentence: 245
 
 Words: 18 // Chars: 76 // CRC: 3926
 
@@ -1962,7 +1970,7 @@ Words: 18 // Chars: 76 // CRC: 3926
 
 
 
-Sentence: 245
+Sentence: 246
 
 Words: 31 // Chars: 137 // CRC: 7053
 
@@ -1970,7 +1978,7 @@ Words: 31 // Chars: 137 // CRC: 7053
 
 
 
-Sentence: 246
+Sentence: 247
 
 Words: 6 // Chars: 20 // CRC: 1102
 
@@ -1978,7 +1986,7 @@ Words: 6 // Chars: 20 // CRC: 1102
 
 
 
-Sentence: 247
+Sentence: 248
 
 Words: 7 // Chars: 33 // CRC: 1814
 
@@ -1986,7 +1994,7 @@ Words: 7 // Chars: 33 // CRC: 1814
 
 
 
-Sentence: 248
+Sentence: 249
 
 Words: 40 // Chars: 197 // CRC: 9672
 
@@ -1994,7 +2002,7 @@ Words: 40 // Chars: 197 // CRC: 9672
 
 
 
-Sentence: 249
+Sentence: 250
 
 Words: 8 // Chars: 45 // CRC: 2355
 
@@ -2002,7 +2010,7 @@ Words: 8 // Chars: 45 // CRC: 2355
 
 
 
-Sentence: 250
+Sentence: 251
 
 Words: 5 // Chars: 17 // CRC: 719
 
@@ -2010,7 +2018,7 @@ Words: 5 // Chars: 17 // CRC: 719
 
 
 
-Sentence: 251
+Sentence: 252
 
 Words: 21 // Chars: 87 // CRC: 4651
 
@@ -2018,7 +2026,7 @@ Words: 21 // Chars: 87 // CRC: 4651
 
 
 
-Sentence: 252
+Sentence: 253
 
 Words: 22 // Chars: 108 // CRC: 5492
 
@@ -2026,7 +2034,7 @@ Words: 22 // Chars: 108 // CRC: 5492
 
 
 
-Sentence: 253
+Sentence: 254
 
 Words: 3 // Chars: 10 // CRC: 480
 
@@ -2034,7 +2042,7 @@ Words: 3 // Chars: 10 // CRC: 480
 
 
 
-Sentence: 254
+Sentence: 255
 
 Words: 7 // Chars: 24 // CRC: 1153
 
@@ -2042,7 +2050,7 @@ Words: 7 // Chars: 24 // CRC: 1153
 
 
 
-Sentence: 255
+Sentence: 256
 
 Words: 3 // Chars: 12 // CRC: 737
 
@@ -2050,7 +2058,7 @@ Words: 3 // Chars: 12 // CRC: 737
 
 
 
-Sentence: 256
+Sentence: 257
 
 Words: 14 // Chars: 56 // CRC: 2818
 
@@ -2058,7 +2066,7 @@ Words: 14 // Chars: 56 // CRC: 2818
 
 
 
-Sentence: 257
+Sentence: 258
 
 Words: 13 // Chars: 56 // CRC: 3161
 
@@ -2066,7 +2074,7 @@ Words: 13 // Chars: 56 // CRC: 3161
 
 
 
-Sentence: 258
+Sentence: 259
 
 Words: 9 // Chars: 35 // CRC: 1872
 
@@ -2074,7 +2082,7 @@ Words: 9 // Chars: 35 // CRC: 1872
 
 
 
-Sentence: 259
+Sentence: 260
 
 Words: 33 // Chars: 138 // CRC: 7324
 
@@ -2082,7 +2090,7 @@ Words: 33 // Chars: 138 // CRC: 7324
 
 
 
-Sentence: 260
+Sentence: 261
 
 Words: 40 // Chars: 170 // CRC: 9542
 
@@ -2090,7 +2098,7 @@ Words: 40 // Chars: 170 // CRC: 9542
 
 
 
-Sentence: 261
+Sentence: 262
 
 Words: 15 // Chars: 86 // CRC: 4343
 
@@ -2098,7 +2106,7 @@ Words: 15 // Chars: 86 // CRC: 4343
 
 
 
-Sentence: 262
+Sentence: 263
 
 Words: 9 // Chars: 29 // CRC: 1575
 
@@ -2106,7 +2114,7 @@ Words: 9 // Chars: 29 // CRC: 1575
 
 
 
-Sentence: 263
+Sentence: 264
 
 Words: 26 // Chars: 123 // CRC: 6310
 
@@ -2114,7 +2122,7 @@ Words: 26 // Chars: 123 // CRC: 6310
 
 
 
-Sentence: 264
+Sentence: 265
 
 Words: 16 // Chars: 75 // CRC: 3745
 
@@ -2122,7 +2130,7 @@ Words: 16 // Chars: 75 // CRC: 3745
 
 
 
-Sentence: 265
+Sentence: 266
 
 Words: 12 // Chars: 51 // CRC: 2262
 
@@ -2130,7 +2138,7 @@ Words: 12 // Chars: 51 // CRC: 2262
 
 
 
-Sentence: 266
+Sentence: 267
 
 Words: 2 // Chars: 9 // CRC: 597
 
@@ -2138,7 +2146,7 @@ Words: 2 // Chars: 9 // CRC: 597
 
 
 
-Sentence: 267
+Sentence: 268
 
 Words: 64 // Chars: 299 // CRC: 15279
 
@@ -2146,7 +2154,7 @@ Words: 64 // Chars: 299 // CRC: 15279
 
 
 
-Sentence: 268
+Sentence: 269
 
 Words: 2 // Chars: 5 // CRC: 285
 
@@ -2154,7 +2162,7 @@ Words: 2 // Chars: 5 // CRC: 285
 
 
 
-Sentence: 269
+Sentence: 270
 
 Words: 4 // Chars: 14 // CRC: 632
 
@@ -2162,7 +2170,7 @@ Words: 4 // Chars: 14 // CRC: 632
 
 
 
-Sentence: 270
+Sentence: 271
 
 Words: 7 // Chars: 26 // CRC: 1395
 
@@ -2170,7 +2178,7 @@ Words: 7 // Chars: 26 // CRC: 1395
 
 
 
-Sentence: 271
+Sentence: 272
 
 Words: 12 // Chars: 40 // CRC: 1872
 
@@ -2178,7 +2186,7 @@ Words: 12 // Chars: 40 // CRC: 1872
 
 
 
-Sentence: 272
+Sentence: 273
 
 Words: 1 // Chars: 7 // CRC: 449
 
@@ -2186,7 +2194,7 @@ Words: 1 // Chars: 7 // CRC: 449
 
 
 
-Sentence: 273
+Sentence: 274
 
 Words: 7 // Chars: 30 // CRC: 1259
 
@@ -2194,7 +2202,7 @@ Words: 7 // Chars: 30 // CRC: 1259
 
 
 
-Sentence: 274
+Sentence: 275
 
 Words: 6 // Chars: 30 // CRC: 1031
 
@@ -2202,7 +2210,7 @@ Words: 6 // Chars: 30 // CRC: 1031
 
 
 
-Sentence: 275
+Sentence: 276
 
 Words: 6 // Chars: 28 // CRC: 1229
 
