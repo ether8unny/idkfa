@@ -9,37 +9,37 @@ var C =
 {
 	"log":
 	{
-		'dict':				false,
+		'dict':				true,
 		'futhark':			true,
-		'ioc':				false,
-		'keys':				false,
+		'ioc':				true,
+		'keys':				true,
 		'stats':			true,
-		'text':				false,
-		'truncatedict':		false,
-		'truncatefuthark':	false,
-		'truncatekey':		false,
-		'truncatelatin':	false,
-		'legend':			false,
+		'text':				true,
+		'truncatedict':		true,
+		'truncatefuthark':	true,
+		'truncatekey':		true,
+		'truncatelatin':	true,
+		'legend':			true,
 		'ulf':				true,
-		'dlf':				false,
-		'ulr':				false,
-		'dlr':				false
+		'dlf':				true,
+		'ulr':				true,
+		'dlr':				true
 	},
 
 	//	Solved by section:		0,1,2,3,4,5,6,15,16
 	//	Unsolved by paragraph:	16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
-	"select": {x:[]},
+	"select": {s:[0,1,2,3,4,5,6,15,16]},
 
 	//	Note: To add keys as functions please see lib/engine.js
 	"keys":
 	[
 		[[0]],				// Section 0, 2, 4, 6, 16
-		//['divinity', 1],		// Section 1
-		//[[3]],				// Section 3
-		//['firfumferenfe', 1]	// Section 5
+		['divinity', 1],		// Section 1
+		[[3]],				// Section 3
+		['firfumferenfe', 1]	// Section 5
 	],
 
-	"raw": "./data/liber-master",
+	"raw": "./data/liber-work",
 
 	"encoding": "utf8",
 
