@@ -1,5 +1,9 @@
 #
-# Checksum = Reverse Gematria value
+#	Checksum = Gematria value
+#
+#	Note: This file may not always be based on the newest data.
+#
+#	Please see data/liber-master for the most up to date transcription.
 #
 
 Chapter: 0

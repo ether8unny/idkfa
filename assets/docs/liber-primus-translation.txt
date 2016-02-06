@@ -1,5 +1,8 @@
 #
 #	Note: Page/JPG count starts at first page of Liber Primus (+ 17 pages)
+#	Note: This file is for reference and may contain errors in transcription.
+#
+#	Please see data/liber-master for the most up to date transcription.
 #
 
 

@@ -27,16 +27,16 @@ var C =
 	},
 
 	//	Solved by section:		0,1,2,3,4,5,6,15,16
-	//	Unsolved by paragraph:	16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
-	"select": {s:[0,1,2,3,4,5,6,15,16]},
+	//	Unsolved by paragraph:	16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 // 7,8,9,10,11,12,13,14
+	"select": {x:[]},
 
 	//	Note: To add keys as functions please see lib/engine.js
 	"keys":
 	[
-		[[0]],				// Section 0, 2, 4, 6, 16
-		['divinity', 1],		// Section 1
-		[[3]],				// Section 3
-		['firfumferenfe', 1]	// Section 5
+		//[[0]],				// Section 0, 2, 4, 6, 16
+		//['divinity', 1],		// Section 1
+		//[[3]],				// Section 3
+		//['firfumferenfe', 1]	// Section 5
 	],
 
 	"raw": "./data/liber-work",
