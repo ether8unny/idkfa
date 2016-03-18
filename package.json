@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Liber Primus Translator",
   "license": "ISC",
-  "main": "./js/main.js",
+  "main": "./js/index.js",
   "scripts": {
     "test": "echo \"Error: No test specified\" && exit 1"
   },
