@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+9	I	AM	UERY	WORRIED	ABOUT
+7	I	AM	UERY	EXCITED	ABOUT

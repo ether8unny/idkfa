@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+51	I	AM	WORRIED	ABOUT
+16	I	AM	EXCITED	ABOUT

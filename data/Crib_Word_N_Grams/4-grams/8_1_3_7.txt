@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+25	MAINTAIN	A	LOW	PROFILE
+20	RETURNED	A	FEW	MINUTES

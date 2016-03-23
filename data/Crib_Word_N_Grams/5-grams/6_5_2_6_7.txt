@@ -1,0 +1,2 @@
+Count from total of 16451820 word 5-grams
+13	SLOWLY	LOWER	TO	START(I)NG	POSITION

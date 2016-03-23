@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+21	CENTURY	DRAWS	TO	A	CLOSE
+6	CENTURY	COMES	TO	A	CLOSE

@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+7	THEY	WERE	PASS(I)NG	THROUGH	A
+7	HAS	ONCE	AGAIN	BECOME	A

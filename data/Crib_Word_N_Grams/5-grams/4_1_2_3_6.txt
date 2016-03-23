@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+8	WHAT	I	AM	GO(I)NG	THROUGH
+6	WHEN	I	DO	NOT	ANSWER

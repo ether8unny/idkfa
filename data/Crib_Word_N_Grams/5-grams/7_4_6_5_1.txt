@@ -1,0 +1,2 @@
+Count from total of 16451820 word 5-grams
+29	FOLLOW(I)NG	TEXT	APPEARS	WITHIN	A

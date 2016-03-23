@@ -1,0 +1,2 @@
+Count from total of 46030908 word 4-grams
+13	PEOPLE	UNDERSTAND	THAT	THIS
