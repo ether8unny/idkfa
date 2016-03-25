@@ -1,0 +1,7 @@
+Count from total of 46030908 word 4-grams
+99	I	MEAN	I	DO
+53	I	SAY	I	DO
+30	I	SAY	I	AM
+21	A	WAY	I	DO
+15	A	LOT	I	DO
+14	I	MEAN	I	AM

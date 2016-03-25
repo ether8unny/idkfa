@@ -1,0 +1,4 @@
+Count from total of 16451820 word 5-grams
+16	WHAT	DO	I	DO	WHEN
+8	WHAT	DO	I	DO	NEXT
+6	WELL	AS	I	DO	WHAT

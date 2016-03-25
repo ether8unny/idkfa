@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+48	NOT	REMEMBER	A	TH(I)NG
+36	HOW	GRATEFUL	I	AM

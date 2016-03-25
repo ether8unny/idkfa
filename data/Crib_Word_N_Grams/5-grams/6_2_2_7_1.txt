@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+8	ANSWER	TO	THE	CWESTION	I
+6	MISSION	IS	TO	PROUIDE	A

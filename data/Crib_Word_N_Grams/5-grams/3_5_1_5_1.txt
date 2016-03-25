@@ -1,0 +1,4 @@
+Count from total of 16451820 word 5-grams
+34	BUT	AFTER	A	WHILE	I
+29	AND	AFTER	A	WHILE	I
+6	THEN	AFTER	A	WHILE	I

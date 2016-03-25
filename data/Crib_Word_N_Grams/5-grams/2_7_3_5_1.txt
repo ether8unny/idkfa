@@ -1,0 +1,3 @@
+Count from total of 16451820 word 5-grams
+7	THE	COMPANY	HAS	BUILT	A
+6	TO	RESEARCH	AND	WRITE	A

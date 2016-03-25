@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+64	DRIU(I)NG	WITHOUT	A	LICENSE
+13	COULD	BECOME	A	PROBLEM

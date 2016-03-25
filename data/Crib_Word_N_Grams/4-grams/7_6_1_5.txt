@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+47	TESTIFY	BEFORE	A	GRAND
+26	CRUSHED	THROUGH	A	PRESS

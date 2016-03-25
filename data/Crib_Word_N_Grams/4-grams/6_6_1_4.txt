@@ -1,0 +1,3 @@
+Count from total of 46030908 word 4-grams
+27	STRAIN	THROUGH	A	FINE
+18	SENATE	PASSED	A	BILL
