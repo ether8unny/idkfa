@@ -7,22 +7,37 @@ Calculates IoC and matches produced clear text against a dictionary.
 
 Will output: Text shifted up/down from left to right along a forward and reverse Gematria. It's IoC and matched words.
 
+Use js/config.js to configure the app.
+
 ##### Selecting segments #####
 
 Liber can be split by (w)ord, (c)lause, (p)aragraph (s)egment (l)ine or (q)age (page).
 
 ```node
 
-S.get({s:[]});					// Will get every segment
-S.get({s:[15, 16]});			// Will get segment 15 and 16
-S.get({c:[2, 3], p:[10, 11]});	// Will get clause 2 and 3, and paragraph 10 and 11
+"select": {s:[]}					// Will get every segment
+"select": {s:[15, 16]}				// Will get segment 15 and 16
+"select": {c:[2, 3], p[10, 11]}		// Will get clause 2 and 3, and paragraph 10 and 11
 ```
 
 ##### Selecting keys #####
 
-Keys can be added as string ('divinity') or array [2, 3, 5, 7] or can be selected from ./data/oeis by name ('A010000'), index or range/offset. Keys will be added with forword or reverse offsets depending on param direction.
+Keys can be added as string ('divinity') or array [2, 3, 5, 7]. Keys will be added with forword or reverse offsets depending on param direction.
+
+Note: Selecting OEIS keys has been disabled until a proper function to handle the output is implemented.
+Though you may still select keys from ./data/oeis by name ('A010000'), index or range/offset, just include the module in engine.js.
 
 ```node
+
+//config.js
+
+"keys":
+[
+	[[0]],
+	['divinity', 1]
+]
+
+//engine.js
 
 K.add('divinity', 1);
 K.add([0, 1, 2, 3, 4, 5]);
@@ -64,27 +79,14 @@ To do multiple iterations of chunk with continuous key, pass iterations to E.pro
 E.process(data, 2);
 ```
 
-Note: Keys from OEIS are sanitized and sanity checked on values given in config.js. OEIS file is still unsorted.
-
-So
-
-```node
-
-O.get(0,100);
-```
-
-will most likely not return 100 keys.
-
 ### Setup ###
 
-Cmd options are not yet implemented so you will have to edit source and run ./js/main.js.
-
-Edit ./js/main.js for selecting chunks and keys, and ./js/lib/engine.js to play with keys.
+Edit js/config.js for selecting chunks and keys, and ./js/lib/engine.js to play with keys (keys as function).
 
 ```bash
 
-$ npm update
-$ node ./js/main.js
+$ npm install
+$ node ./js
 ```
 
 ### Contribution guidelines ###
