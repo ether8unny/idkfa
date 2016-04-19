@@ -99,11 +99,22 @@ var E =
 				//console.log('[-] Generating pi: ' + keylen + '..');
 				//var keyPi		= N.pi(keylen);
 
+				//console.log('[-] Generating pi: ' + keylen + '..');
+				//var keyFib		= N.fib(keylen);
+
 			//////// Add key section 15 (phi(prime))
 
 				var keySection15 = [];
 				for (var k15 = 0; k15 < keyPrime.length; k15 ++) keySection15.push(nt.eulerPhi(keyPrime[k15]));
 				tkeys[i][j].push(keySection15);
+
+			//////// Test key prime[fib[n]]
+
+				//var keyFibPrime = [];
+				//for (var kfp = 0; kfp < keyFib.length; kfp ++) keyFibPrime.push(keyPrime[keyFib[kfp]]);
+				//tkeys[i][j].push(keyFibPrime);
+
+				//console.log(keyFibPrime);
 
 			//////// Test key 2^prime
 
