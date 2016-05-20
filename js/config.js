@@ -33,9 +33,9 @@ var C =
 	//	Note: To add keys as functions please see lib/engine.js
 	"keys":
 	[
-		[[0]],				// Section 0, 2, 4, 6, 16
+		[[0]],					// Section 0, 2, 4, 6, 16
 		['divinity', 1],		// Section 1
-		[[3]],				// Section 3
+		[[3]],					// Section 3
 		['firfumferenfe', 1]	// Section 5
 	],
 
